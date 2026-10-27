@@ -1,1 +1,3 @@
-{}
+{
+  "Fix tiếng ả rập app Thư viện": "cmd locale set-app-locales com.miui.gallery --locales en-US",
+}
