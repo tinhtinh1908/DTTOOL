@@ -1,1 +1,4 @@
-{}
+{
+  "Fix tiếng ả rập app Thư viện": "cmd locale set-app-locales com.miui.gallery --locales en-US",
+  "Fix tiếng ả rập app Thời tiết": "cmd locale set-app-locales com.miui.weather2 --locales en-US"
+}
