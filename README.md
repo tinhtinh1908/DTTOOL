@@ -30,10 +30,3 @@ Không thêm tiền tố `adb shell`. Lệnh cần JAR/APK chỉ chạy được
 }
 ```
 
-Tên ở bên trái hiển thị trong tool. Giá trị bên phải là lệnh hoặc package. File quyết định thao tác: `go.json` để gỡ, `tat.json` để tắt.
-
-Thêm mục bằng dấu phẩy giữa các dòng; dòng cuối không có dấu phẩy. Không cần ID, type, trường thời gian chờ hay cấu trúc lồng nhau.
-
-Sửa file trong đúng thư mục OS, bấm **Commit changes**, rồi **Cập nhật** trong tool. Tool chỉ chạy các mục người dùng chọn và bấm Chạy.
-
-Lệnh từ repo được quản lý và ẩn nội dung trong giao diện/nhật ký. Lệnh người dùng tự thêm được lưu riêng trên PC, hiển thị rõ và không gửi lên repo. Repo này công khai; việc ẩn chỉ là cách hiển thị trong ứng dụng.
