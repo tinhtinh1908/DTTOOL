@@ -7,6 +7,7 @@
     "mist"
   ],
   "specs": {
+    "display_size": "",
     "display_type": "OLED",
     "resolution": "1080 x 2396",
     "refresh_rate": "120 Hz",
@@ -19,7 +20,8 @@
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.1",
     "usb": "USB Type-C",
-    "battery": "Si/C Li-Ion 8000 mAh"
+    "battery": "Si/C Li-Ion 8000 mAh",
+    "battery_chemistry": "Si/C Li-Ion"
   },
   "conflicts": [
     "display_size"

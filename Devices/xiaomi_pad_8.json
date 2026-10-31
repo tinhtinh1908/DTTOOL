@@ -18,7 +18,9 @@
     "camera_tele": "None",
     "camera_front": "8 MP",
     "wifi": "Wi-Fi 7",
+    "bluetooth": "",
     "usb": "USB 3.2 Gen 1",
-    "battery": "9200 mAh"
+    "battery": "9200 mAh",
+    "battery_chemistry": ""
   }
 }

@@ -8,8 +8,19 @@
   ],
   "specs": {
     "display_size": "6.9 inches",
+    "display_type": "",
+    "resolution": "",
     "refresh_rate": "120 Hz",
+    "ram": "",
+    "storage": "",
     "camera_main": "13 MP",
-    "battery": "6000 mAh"
+    "camera_ultrawide": "",
+    "camera_tele": "",
+    "camera_front": "",
+    "wifi": "",
+    "bluetooth": "",
+    "usb": "",
+    "battery": "6000 mAh",
+    "battery_chemistry": ""
   }
 }

@@ -19,8 +19,10 @@
     "camera_tele": "50 MP",
     "camera_front": "20 MP",
     "wifi": "Wi-Fi 7",
+    "bluetooth": "",
     "usb": "USB Type-C",
-    "battery": "Si/C Li-Ion 6000 mAh"
+    "battery": "Si/C Li-Ion 6000 mAh",
+    "battery_chemistry": "Si/C Li-Ion"
   },
   "variants": {
     "24122RKC7C": {

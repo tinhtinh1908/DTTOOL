@@ -20,6 +20,7 @@
     "wifi": "Wi-Fi 7",
     "bluetooth": "6.0",
     "usb": "USB Type-C",
-    "battery": "8580 mAh"
+    "battery": "8580 mAh",
+    "battery_chemistry": ""
   }
 }

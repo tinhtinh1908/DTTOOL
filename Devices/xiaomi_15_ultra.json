@@ -14,11 +14,14 @@
     "refresh_rate": "120 Hz",
     "ram": "LPDDR5X",
     "storage": "UFS 4.1",
+    "camera_main": "",
     "camera_ultrawide": "50 MP",
     "camera_tele": "50 MP",
+    "camera_front": "",
     "wifi": "Wi-Fi 7",
     "bluetooth": "6.0",
     "usb": "USB Type-C 3.2 Gen 2",
-    "battery": "6000 mAh"
+    "battery": "6000 mAh",
+    "battery_chemistry": ""
   }
 }

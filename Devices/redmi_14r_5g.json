@@ -14,9 +14,13 @@
     "ram": "LPDDR4X",
     "storage": "UFS 2.2",
     "camera_main": "13 MP",
+    "camera_ultrawide": "",
+    "camera_tele": "",
     "camera_front": "5 MP",
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.0",
-    "battery": "5160 mAh"
+    "usb": "",
+    "battery": "5160 mAh",
+    "battery_chemistry": ""
   }
 }

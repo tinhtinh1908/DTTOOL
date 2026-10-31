@@ -13,9 +13,9 @@ Mỗi file giữ:
 - `variants`: chỉ xuất hiện khi các mã model cùng tên có thông số khác nhau; phần này bổ sung vào thông số chung của đúng mã.
 - `conflicts`: chỉ xuất hiện khi có trường chưa xác định do nguồn mâu thuẫn.
 
-Các khóa thông số: `display_size`, `display_type`, `resolution`, `refresh_rate`, `ram`, `storage`, `camera_main`, `camera_ultrawide`, `camera_tele`, `camera_front`, `wifi`, `bluetooth`, `usb`, `battery`.
+Các khóa thông số: `display_size`, `display_type`, `resolution`, `refresh_rate`, `ram`, `storage`, `camera_main`, `camera_ultrawide`, `camera_tele`, `camera_front`, `wifi`, `bluetooth`, `usb`, `battery`, `battery_chemistry`.
 
-Thiếu trường là chưa xác minh; `None` là nguồn xác nhận không có camera đó. RAM/bộ nhớ ở đây là loại LPDDR/UFS/eMMC; dung lượng thực tế vẫn đọc từ máy đang cắm. Không lấy thông số Global để điền cho China. Máy gập mô tả màn hình chính khi xác minh được.
+Giá trị `""` là chưa xác minh, để trống cho người dùng tự điền; không xóa khóa. `None` là nguồn xác nhận không có camera đó. `battery_chemistry` dành cho loại pin, ví dụ `Li-Po` hoặc `Si/C Li-Ion`. RAM/bộ nhớ ở đây là loại LPDDR/UFS/eMMC; dung lượng thực tế vẫn đọc từ máy đang cắm. Không lấy thông số Global để điền cho China. Máy gập mô tả màn hình chính khi xác minh được.
 
 `index.json` chỉ liệt kê file và ngày cập nhật. Không cần tự tính checksum khi sửa. Tool cập nhật từ commit Git đã ghim hoặc nhập thư mục bằng `app/scripts/update-device-catalog.cjs --from <Devices>`; dùng snapshot offline khi chạy.
 

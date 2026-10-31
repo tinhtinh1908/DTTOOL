@@ -18,8 +18,10 @@
     "camera_tele": "None",
     "camera_front": "20 MP",
     "wifi": "Wi-Fi 6",
+    "bluetooth": "",
     "usb": "USB Type-C",
-    "battery": "Li-Po 5000 mAh"
+    "battery": "Li-Po 5000 mAh",
+    "battery_chemistry": "Li-Po"
   },
   "conflicts": [
     "bluetooth"

@@ -11,7 +11,16 @@
     "display_type": "LCD",
     "resolution": "720 x 1600",
     "refresh_rate": "120 Hz",
+    "ram": "",
+    "storage": "",
     "camera_main": "13 MP",
-    "battery": "6300 mAh"
+    "camera_ultrawide": "",
+    "camera_tele": "",
+    "camera_front": "",
+    "wifi": "",
+    "bluetooth": "",
+    "usb": "",
+    "battery": "6300 mAh",
+    "battery_chemistry": ""
   }
 }

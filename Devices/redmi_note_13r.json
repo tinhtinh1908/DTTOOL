@@ -20,6 +20,7 @@
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.3",
     "usb": "USB Type-C",
-    "battery": "5030 mAh"
+    "battery": "5030 mAh",
+    "battery_chemistry": ""
   }
 }

@@ -8,6 +8,7 @@
   ],
   "specs": {
     "display_size": "8.02 inches",
+    "display_type": "",
     "resolution": "1914 x 2160",
     "refresh_rate": "120 Hz",
     "ram": "LPDDR5",
@@ -16,9 +17,11 @@
     "camera_ultrawide": "13 MP",
     "camera_tele": "8 MP",
     "camera_front": "20 MP",
+    "wifi": "",
     "bluetooth": "5.2",
     "usb": "USB Type-C",
-    "battery": "Li-Po 4500 mAh"
+    "battery": "Li-Po 4500 mAh",
+    "battery_chemistry": "Li-Po"
   },
   "conflicts": [
     "display_type",

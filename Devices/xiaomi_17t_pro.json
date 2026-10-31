@@ -10,14 +10,18 @@
     "display_size": "6.83 inches",
     "display_type": "AMOLED",
     "resolution": "1280 x 2772",
+    "refresh_rate": "",
     "ram": "LPDDR5X",
     "storage": "UFS 4.1",
+    "camera_main": "",
     "camera_ultrawide": "12 MP",
     "camera_tele": "50 MP",
+    "camera_front": "",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
     "usb": "USB Type-C 2.0",
-    "battery": "7000 mAh"
+    "battery": "7000 mAh",
+    "battery_chemistry": ""
   },
   "conflicts": [
     "refresh_rate"

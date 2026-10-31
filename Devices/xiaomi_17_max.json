@@ -20,6 +20,7 @@
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
     "usb": "USB Type-C 3.2 Gen 1",
-    "battery": "Si/C Li-Ion 8000 mAh"
+    "battery": "Si/C Li-Ion 8000 mAh",
+    "battery_chemistry": "Si/C Li-Ion"
   }
 }

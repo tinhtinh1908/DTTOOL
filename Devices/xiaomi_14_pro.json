@@ -18,7 +18,8 @@
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
     "usb": "USB Type-C 3.2 Gen 2",
-    "battery": "Li-Po 4880 mAh"
+    "battery": "Li-Po 4880 mAh",
+    "battery_chemistry": "Li-Po"
   },
   "variants": {
     "23116PN5BC": {

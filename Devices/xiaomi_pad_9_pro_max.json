@@ -20,6 +20,7 @@
     "wifi": "Wi-Fi 7",
     "bluetooth": "6.0",
     "usb": "USB 3.2 Gen 1",
-    "battery": "12000 mAh"
+    "battery": "12000 mAh",
+    "battery_chemistry": ""
   }
 }

@@ -10,10 +10,19 @@
   ],
   "specs": {
     "display_size": "6.83 inches",
+    "display_type": "",
+    "resolution": "",
     "refresh_rate": "165 Hz",
     "ram": "LPDDR5X Ultra",
     "storage": "UFS 4.1",
     "camera_main": "50 MP",
-    "battery": "10000 mAh"
+    "camera_ultrawide": "",
+    "camera_tele": "",
+    "camera_front": "",
+    "wifi": "",
+    "bluetooth": "",
+    "usb": "",
+    "battery": "10000 mAh",
+    "battery_chemistry": ""
   }
 }

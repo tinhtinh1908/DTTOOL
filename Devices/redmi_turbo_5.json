@@ -9,6 +9,7 @@
   "specs": {
     "display_size": "6.59 inches",
     "display_type": "AMOLED",
+    "resolution": "",
     "refresh_rate": "120 Hz",
     "ram": "LPDDR5X",
     "storage": "UFS 4.1",
@@ -19,7 +20,8 @@
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
-    "battery": "7560 mAh"
+    "battery": "7560 mAh",
+    "battery_chemistry": ""
   },
   "conflicts": [
     "resolution"

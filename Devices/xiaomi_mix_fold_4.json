@@ -17,9 +17,11 @@
     "camera_ultrawide": "12 MP",
     "camera_tele": "10 MP",
     "camera_front": "16 MP",
+    "wifi": "",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
-    "battery": "5100 mAh"
+    "battery": "5100 mAh",
+    "battery_chemistry": ""
   },
   "conflicts": [
     "wifi"

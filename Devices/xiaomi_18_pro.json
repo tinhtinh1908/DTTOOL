@@ -7,6 +7,20 @@
     "hongkong"
   ],
   "specs": {
-    "usb": "USB Type-C"
+    "display_size": "",
+    "display_type": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "ram": "",
+    "storage": "",
+    "camera_main": "",
+    "camera_ultrawide": "",
+    "camera_tele": "",
+    "camera_front": "",
+    "wifi": "",
+    "bluetooth": "",
+    "usb": "USB Type-C",
+    "battery": "",
+    "battery_chemistry": ""
   }
 }

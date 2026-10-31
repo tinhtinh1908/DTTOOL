@@ -11,6 +11,7 @@
     "display_type": "AMOLED",
     "resolution": "2136 x 3200",
     "refresh_rate": "120 Hz",
+    "ram": "",
     "storage": "UFS 4.1",
     "camera_main": "50 MP",
     "camera_ultrawide": "None",
@@ -19,6 +20,7 @@
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
     "usb": "USB Type-C 3.2 Gen 2",
-    "battery": "12000 mAh"
+    "battery": "12000 mAh",
+    "battery_chemistry": ""
   }
 }

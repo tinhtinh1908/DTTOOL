@@ -20,6 +20,7 @@
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
-    "battery": "Li-Po 4700 mAh"
+    "battery": "Li-Po 4700 mAh",
+    "battery_chemistry": "Li-Po"
   }
 }

@@ -17,8 +17,10 @@
     "camera_ultrawide": "None",
     "camera_tele": "None",
     "camera_front": "5 MP",
+    "wifi": "",
     "bluetooth": "5.0",
     "usb": "USB Type-C 2.0",
-    "battery": "7600 mAh"
+    "battery": "7600 mAh",
+    "battery_chemistry": ""
   }
 }

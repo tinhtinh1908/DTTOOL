@@ -19,7 +19,9 @@
     "camera_front": "8 MP",
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.4",
-    "usb": "USB Type-C"
+    "usb": "USB Type-C",
+    "battery": "",
+    "battery_chemistry": ""
   },
   "conflicts": [
     "battery"

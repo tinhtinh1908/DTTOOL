@@ -17,9 +17,11 @@
     "camera_ultrawide": "8 MP",
     "camera_tele": "None",
     "camera_front": "20 MP",
+    "wifi": "",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
-    "battery": "Si/C Li-Ion 7550 mAh"
+    "battery": "Si/C Li-Ion 7550 mAh",
+    "battery_chemistry": "Si/C Li-Ion"
   },
   "conflicts": [
     "wifi"
