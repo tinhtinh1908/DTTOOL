@@ -1,0 +1,25 @@
+{
+  "name": "REDMI Pad 2 Pro",
+  "models": [
+    "25099RP13C"
+  ],
+  "codenames": [
+    "flute"
+  ],
+  "specs": {
+    "display_size": "12.1 inches",
+    "display_type": "LCD",
+    "resolution": "1600 x 2560",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "8 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "8 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C 2.0",
+    "battery": "12000 mAh"
+  }
+}

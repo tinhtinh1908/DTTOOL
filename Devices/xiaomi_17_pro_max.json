@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi 17 Pro Max",
+  "models": [
+    "2509FPN0BC"
+  ],
+  "codenames": [
+    "popsicle"
+  ],
+  "specs": {
+    "display_size": "6.9 inches",
+    "display_type": "LTPO AMOLED",
+    "resolution": "1200 x 2608",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "50 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "50 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C 3.0",
+    "battery": "Si/C Li-Ion 7500 mAh"
+  }
+}

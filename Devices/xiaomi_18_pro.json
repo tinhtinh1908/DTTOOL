@@ -1,0 +1,12 @@
+{
+  "name": "Xiaomi 18 Pro",
+  "models": [
+    "M610BB"
+  ],
+  "codenames": [
+    "hongkong"
+  ],
+  "specs": {
+    "usb": "USB Type-C"
+  }
+}

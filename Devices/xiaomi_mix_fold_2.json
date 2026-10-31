@@ -1,0 +1,27 @@
+{
+  "name": "Xiaomi MIX Fold 2",
+  "models": [
+    "22061218C"
+  ],
+  "codenames": [
+    "zizhan"
+  ],
+  "specs": {
+    "display_size": "8.02 inches",
+    "resolution": "1914 x 2160",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "13 MP",
+    "camera_tele": "8 MP",
+    "camera_front": "20 MP",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 4500 mAh"
+  },
+  "conflicts": [
+    "display_type",
+    "wifi"
+  ]
+}

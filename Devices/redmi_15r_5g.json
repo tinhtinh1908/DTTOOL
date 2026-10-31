@@ -1,0 +1,15 @@
+{
+  "name": "REDMI 15R 5G",
+  "models": [
+    "25082RNC1C"
+  ],
+  "codenames": [
+    "tornado"
+  ],
+  "specs": {
+    "display_size": "6.9 inches",
+    "refresh_rate": "120 Hz",
+    "camera_main": "13 MP",
+    "battery": "6000 mAh"
+  }
+}

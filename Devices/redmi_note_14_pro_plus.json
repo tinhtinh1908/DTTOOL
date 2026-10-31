@@ -1,0 +1,25 @@
+{
+  "name": "Redmi Note 14 Pro+",
+  "models": [
+    "24115RA8EC"
+  ],
+  "codenames": [
+    "amethyst"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "OLED",
+    "resolution": "1220 x 2712",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "camera_main": "50 MP",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "6200 mAh"
+  },
+  "conflicts": [
+    "storage"
+  ]
+}

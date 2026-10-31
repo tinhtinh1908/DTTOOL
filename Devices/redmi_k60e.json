@@ -1,0 +1,25 @@
+{
+  "name": "Redmi K60E",
+  "models": [
+    "22122RK93C"
+  ],
+  "codenames": [
+    "rembrandt"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "OLED",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "camera_main": "48 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.3",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 5500 mAh"
+  }
+}

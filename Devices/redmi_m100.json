@@ -1,0 +1,26 @@
+{
+  "name": "REDMI M100",
+  "models": [
+    "26062RN92C"
+  ],
+  "codenames": [
+    "steppe",
+    "leeds"
+  ],
+  "specs": {
+    "display_size": "6.9 inches",
+    "display_type": "LCD",
+    "resolution": "720 x 1600",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "13 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "5 MP",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.1",
+    "usb": "USB Type-C",
+    "battery": "7900 mAh"
+  }
+}

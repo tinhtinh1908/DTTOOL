@@ -1,0 +1,23 @@
+{
+  "name": "Xiaomi Pad 5 Pro 12.4",
+  "models": [
+    "22081281AC"
+  ],
+  "codenames": [
+    "dagu"
+  ],
+  "specs": {
+    "display_size": "12.4 inches",
+    "display_type": "IPS LCD",
+    "resolution": "1600 x 2560",
+    "refresh_rate": "120 Hz",
+    "storage": "UFS 3.1",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C 3.2",
+    "battery": "Li-Po 10000 mAh"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Xiaomi 18 Pro Max",
+  "models": [
+    "M154FF"
+  ],
+  "codenames": [
+    "madrid"
+  ],
+  "specs": {
+    "usb": "USB Type-C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi 12S",
+  "models": [
+    "2206123SC"
+  ],
+  "codenames": [
+    "mayfly"
+  ],
+  "specs": {
+    "display_size": "6.28 inches",
+    "display_type": "OLED",
+    "resolution": "1080 x 2400",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "13 MP",
+    "camera_tele": "5 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 4500 mAh"
+  }
+}

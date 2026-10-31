@@ -1,0 +1,17 @@
+{
+  "name": "REDMI 17 5G",
+  "models": [
+    "2602BRNA4C"
+  ],
+  "codenames": [
+    "somalia"
+  ],
+  "specs": {
+    "display_size": "6.9 inches",
+    "display_type": "LCD",
+    "resolution": "720 x 1600",
+    "refresh_rate": "120 Hz",
+    "camera_main": "13 MP",
+    "battery": "6300 mAh"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Xiaomi 11 Pro",
+  "models": [
+    "M2102K1AC"
+  ],
+  "codenames": [
+    "star",
+    "mars"
+  ],
+  "specs": {
+    "display_size": "6.81 inches",
+    "display_type": "AMOLED",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "13 MP",
+    "camera_tele": "8 MP",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 5000 mAh"
+  }
+}

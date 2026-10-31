@@ -1,0 +1,37 @@
+{
+  "name": "REDMI K80 Pro",
+  "models": [
+    "24122RKC7C",
+    "24127RK2CC"
+  ],
+  "codenames": [
+    "miro"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "OLED",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "32 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 7",
+    "usb": "USB Type-C",
+    "battery": "Si/C Li-Ion 6000 mAh"
+  },
+  "variants": {
+    "24122RKC7C": {
+      "specs": {
+        "bluetooth": "6.0"
+      }
+    },
+    "24127RK2CC": {
+      "specs": {
+        "bluetooth": "5.3"
+      }
+    }
+  }
+}

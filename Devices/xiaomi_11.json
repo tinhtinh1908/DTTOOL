@@ -1,0 +1,24 @@
+{
+  "name": "Xiaomi 11",
+  "models": [
+    "M2011K2C"
+  ],
+  "codenames": [
+    "venus"
+  ],
+  "specs": {
+    "display_size": "6.81 inches",
+    "display_type": "AMOLED",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "storage": "UFS 3.1",
+    "camera_main": "108 MP",
+    "camera_ultrawide": "13 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C 2.0",
+    "battery": "Li-Po 4600 mAh"
+  }
+}

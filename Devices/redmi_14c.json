@@ -1,0 +1,24 @@
+{
+  "name": "Redmi 14C",
+  "models": [
+    "2409BRN2CC"
+  ],
+  "codenames": [
+    "lake",
+    "pond"
+  ],
+  "specs": {
+    "display_size": "6.88 inches",
+    "display_type": "IPS LCD",
+    "resolution": "720 x 1640",
+    "refresh_rate": "120 Hz",
+    "camera_main": "13 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "5 MP",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C 2.0",
+    "battery": "5160 mAh"
+  }
+}

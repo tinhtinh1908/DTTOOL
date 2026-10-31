@@ -1,0 +1,23 @@
+{
+  "name": "Xiaomi 17",
+  "models": [
+    "25113PN0EC"
+  ],
+  "codenames": [
+    "pudding"
+  ],
+  "specs": {
+    "display_size": "6.3 inches",
+    "display_type": "OLED",
+    "resolution": "1220 x 2656",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_ultrawide": "50 MP",
+    "camera_tele": "50 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C 3.0",
+    "battery": "7000 mAh"
+  }
+}

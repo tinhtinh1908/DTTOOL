@@ -1,0 +1,20 @@
+{
+  "name": "Redmi K50G",
+  "models": [
+    "21121210C"
+  ],
+  "codenames": [
+    "ingres"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "OLED",
+    "resolution": "1080 x 2400",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "4700 mAh"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi Civi 2",
+  "models": [
+    "2209129SC"
+  ],
+  "codenames": [
+    "ziyi"
+  ],
+  "specs": {
+    "display_size": "6.55 inches",
+    "display_type": "AMOLED",
+    "resolution": "1080 x 2400",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "32 MP",
+    "camera_tele": "None",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 4500 mAh"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi Pad 9 Pro Max",
+  "models": [
+    "M367FC"
+  ],
+  "codenames": [
+    "yingtian"
+  ],
+  "specs": {
+    "display_size": "13.3 inches",
+    "display_type": "LCD",
+    "resolution": "2272 x 3408",
+    "refresh_rate": "144 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "usb": "USB 3.2 Gen 1",
+    "battery": "12000 mAh"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Redmi K70",
+  "models": [
+    "23113RKC6C"
+  ],
+  "codenames": [
+    "vermeer"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "LCD",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "16 MP",
+    "wifi": "Wi-Fi 7",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 5000 mAh"
+  },
+  "conflicts": [
+    "bluetooth"
+  ]
+}

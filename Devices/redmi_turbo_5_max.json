@@ -1,0 +1,25 @@
+{
+  "name": "REDMI Turbo 5 Max",
+  "models": [
+    "2602BRT18C"
+  ],
+  "codenames": [
+    "dash"
+  ],
+  "specs": {
+    "display_size": "6.83 inches",
+    "display_type": "AMOLED",
+    "resolution": "1280 x 2772",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "Si/C Li-Ion 9000 mAh"
+  }
+}

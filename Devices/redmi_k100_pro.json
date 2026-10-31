@@ -1,0 +1,25 @@
+{
+  "name": "REDMI K100 Pro",
+  "models": [
+    "M511CD"
+  ],
+  "codenames": [
+    "athens"
+  ],
+  "specs": {
+    "display_size": "6.59 inches",
+    "display_type": "AMOLED",
+    "resolution": "1156 x 2510",
+    "refresh_rate": "185 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "200 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "usb": "USB Type-C",
+    "battery": "8580 mAh"
+  }
+}

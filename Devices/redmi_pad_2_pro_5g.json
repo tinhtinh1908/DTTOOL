@@ -1,0 +1,23 @@
+{
+  "name": "REDMI Pad 2 Pro 5G",
+  "models": [
+    "2509BRP2DC"
+  ],
+  "codenames": [
+    "organ"
+  ],
+  "specs": {
+    "display_size": "12.1 inches",
+    "resolution": "1600 x 2560",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "8 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "8 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "battery": "12000 mAh"
+  }
+}

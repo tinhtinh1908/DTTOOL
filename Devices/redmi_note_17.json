@@ -1,0 +1,27 @@
+{
+  "name": "REDMI Note 17",
+  "models": [
+    "26021RN18C"
+  ],
+  "codenames": [
+    "mist"
+  ],
+  "specs": {
+    "display_type": "OLED",
+    "resolution": "1080 x 2396",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "8 MP",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.1",
+    "usb": "USB Type-C",
+    "battery": "Si/C Li-Ion 8000 mAh"
+  },
+  "conflicts": [
+    "display_size"
+  ]
+}

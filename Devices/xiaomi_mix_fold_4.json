@@ -1,0 +1,27 @@
+{
+  "name": "Xiaomi MIX Fold 4",
+  "models": [
+    "24072PX77C"
+  ],
+  "codenames": [
+    "goku"
+  ],
+  "specs": {
+    "display_size": "7.98 inches",
+    "display_type": "LTPO AMOLED",
+    "resolution": "2224 x 2488",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "12 MP",
+    "camera_tele": "10 MP",
+    "camera_front": "16 MP",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "5100 mAh"
+  },
+  "conflicts": [
+    "wifi"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Xiaomi 14 Pro",
+  "models": [
+    "23116PN5BC",
+    "2311BPN23C"
+  ],
+  "specs": {
+    "display_size": "6.73 inches",
+    "display_type": "LTPO AMOLED",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "50 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C 3.2 Gen 2",
+    "battery": "Li-Po 4880 mAh"
+  },
+  "variants": {
+    "23116PN5BC": {
+      "codenames": [
+        "shennong"
+      ]
+    },
+    "2311BPN23C": {
+      "codenames": [
+        "shennong",
+        "shennong_t"
+      ]
+    }
+  }
+}

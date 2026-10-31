@@ -1,0 +1,21 @@
+{
+  "name": "REDMI Pad 2",
+  "models": [
+    "25040RP0AC"
+  ],
+  "codenames": [
+    "taiko"
+  ],
+  "specs": {
+    "display_size": "11 inches",
+    "display_type": "LCD",
+    "resolution": "1600 x 2560",
+    "refresh_rate": "90 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.3",
+    "usb": "USB Type-C 2.0",
+    "battery": "9000 mAh"
+  }
+}

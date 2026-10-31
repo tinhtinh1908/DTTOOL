@@ -1,0 +1,24 @@
+{
+  "name": "Xiaomi Pad 6 Pro",
+  "models": [
+    "23046RP50C"
+  ],
+  "codenames": [
+    "liuqin"
+  ],
+  "specs": {
+    "display_size": "11.0 inches",
+    "display_type": "IPS LCD",
+    "resolution": "1800 x 2880",
+    "refresh_rate": "144 Hz",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "usb": "USB Type-C 3.2",
+    "battery": "Li-Po 8600 mAh"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Xiaomi Pad 9",
+  "models": [
+    "M656BA"
+  ],
+  "codenames": [
+    "yupei",
+    "yupei_d",
+    "donghai"
+  ],
+  "specs": {
+    "display_size": "11.2 inches",
+    "display_type": "LCD",
+    "resolution": "2136 x 3200",
+    "refresh_rate": "144 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "13 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "8 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "usb": "USB 3.2 Gen 1",
+    "battery": "9720 mAh"
+  }
+}

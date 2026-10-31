@@ -1,0 +1,27 @@
+{
+  "name": "Redmi K50 Ultra",
+  "models": [
+    "22081212C"
+  ],
+  "codenames": [
+    "diting"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "OLED",
+    "resolution": "1220 x 2712",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "camera_main": "108 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 5000 mAh"
+  },
+  "conflicts": [
+    "wifi"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Xiaomi Pad 8 Pro",
+  "models": [
+    "25091RP04C"
+  ],
+  "codenames": [
+    "piano"
+  ],
+  "specs": {
+    "display_size": "11.2 inches",
+    "display_type": "LCD",
+    "resolution": "2136 x 3200",
+    "refresh_rate": "144 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 7",
+    "usb": "USB 3.2 Gen 1",
+    "battery": "9200 mAh"
+  }
+}

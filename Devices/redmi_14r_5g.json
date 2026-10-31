@@ -1,0 +1,22 @@
+{
+  "name": "Redmi 14R 5G",
+  "models": [
+    "2411DRN47C"
+  ],
+  "codenames": [
+    "flame"
+  ],
+  "specs": {
+    "display_size": "6.88 inches",
+    "display_type": "LCD",
+    "resolution": "720 x 1640",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "13 MP",
+    "camera_front": "5 MP",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "battery": "5160 mAh"
+  }
+}

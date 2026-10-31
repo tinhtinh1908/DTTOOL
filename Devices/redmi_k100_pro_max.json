@@ -1,0 +1,25 @@
+{
+  "name": "REDMI K100 Pro Max",
+  "models": [
+    "M098FE"
+  ],
+  "codenames": [
+    "songyuan"
+  ],
+  "specs": {
+    "display_size": "6.9 inches",
+    "display_type": "AMOLED",
+    "resolution": "1200 x 2608",
+    "refresh_rate": "185 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "200 MP",
+    "camera_ultrawide": "50 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "usb": "USB Type-C",
+    "battery": "9070 mAh"
+  }
+}

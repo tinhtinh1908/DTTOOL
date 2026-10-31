@@ -1,0 +1,25 @@
+{
+  "name": "REDMI Turbo 4",
+  "models": [
+    "24129RT7CC"
+  ],
+  "codenames": [
+    "rodin"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "AMOLED",
+    "resolution": "1220 x 2712",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "6.0",
+    "usb": "USB Type-C",
+    "battery": "Si/C Li-Ion 6550 mAh"
+  }
+}

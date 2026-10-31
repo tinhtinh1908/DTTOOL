@@ -1,0 +1,27 @@
+{
+  "name": "Redmi K70 Ultra",
+  "models": [
+    "2407FRK8EC"
+  ],
+  "codenames": [
+    "rothko"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "AMOLED",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 5500 mAh"
+  },
+  "conflicts": [
+    "refresh_rate",
+    "resolution"
+  ]
+}

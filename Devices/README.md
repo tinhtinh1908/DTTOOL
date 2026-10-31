@@ -1,35 +1,28 @@
-# Devices — Xiaomi / Redmi China
+# Devices
 
-Mỗi mã model có một file `<MODEL>.json`. `index.json` liệt kê file và SHA-256. Snapshot ngày 2026-10-31 gồm 128 mã model, bao phủ 113 codename có bản ROM China HyperOS 2, 3 hoặc 4 ghi nhận trong HyperOS.fans trước hoặc đúng ngày này, gồm điện thoại và máy tính bảng. Phạm vi đối chiếu dựa trên các nguồn đã ghi nhận, không bao gồm thiết bị chưa được nguồn công bố.
+Máy Xiaomi/Redmi nội địa China có ROM HyperOS 2–4, đối chiếu đến 2026-10-31. **122 file tên máy, 128 mã model.**
 
-## Nhận diện
+Tên file viết thường, cách nhau bằng `_`: `redmi_pad_2.json`, `xiaomi_15_pro.json`. Máy trùng tên dùng chung file.
 
-`model` là mã chứng nhận/model, ví dụ `2410DPN6CC`; `codenames` là tên dùng trong ROM, ví dụ `haotian`. Hai loại mã khác nhau; một codename có thể có nhiều biến thể. `market` luôn `CN`; không thay bằng mã POCO/Global/India.
+Mỗi file giữ:
 
-`hyperos` liệt kê phiên bản lớn có bằng chứng ROM China, không phải cam kết nâng cấp tương lai. `sources.roms` ghi snapshot dữ liệu gốc [HyperOS.fans](https://hyperos.fans/zh/devices/), đường dẫn codename và ROM làm bằng chứng. Mi 11 Pro dùng chung firmware `star` với Ultra; alias ghi rõ trong file.
+- `name`: tên máy.
+- `models`: mã model để nhận diện chính xác.
+- `codenames`: codename để kiểm tra đúng thiết bị.
+- `specs`: thông số dùng trong tab Thông tin.
+- `variants`: chỉ xuất hiện khi các mã model cùng tên có thông số khác nhau; phần này bổ sung vào thông số chung của đúng mã.
+- `conflicts`: chỉ xuất hiện khi có trường chưa xác định do nguồn mâu thuẫn.
 
-HyperOS.fans không cung cấp đầy đủ mã chứng nhận model: nguồn này xác minh codename/ROM; mã model được đối chiếu riêng với MobileModels. Các mã dạng `Mxxxxx` giữ nguyên cách ghi của nguồn, không tự đổi thành mã chứng nhận có hậu tố `C`.
+Các khóa thông số: `display_size`, `display_type`, `resolution`, `refresh_rate`, `ram`, `storage`, `camera_main`, `camera_ultrawide`, `camera_tele`, `camera_front`, `wifi`, `bluetooth`, `usb`, `battery`.
 
-## Thông số
+Thiếu trường là chưa xác minh; `None` là nguồn xác nhận không có camera đó. RAM/bộ nhớ ở đây là loại LPDDR/UFS/eMMC; dung lượng thực tế vẫn đọc từ máy đang cắm. Không lấy thông số Global để điền cho China. Máy gập mô tả màn hình chính khi xác minh được.
 
-`specs` chỉ phục vụ tab Thông tin: kích thước, loại, độ phân giải và tần số quét màn hình; camera chính/siêu rộng/tele/trước; loại RAM và bộ nhớ; Wi-Fi, Bluetooth, USB; dung lượng và loại pin. Tên công nghệ giữ tiếng Anh chuẩn.
+`index.json` chỉ liệt kê file và ngày cập nhật. Không cần tự tính checksum khi sửa. Tool cập nhật từ commit Git đã ghim hoặc nhập thư mục bằng `app/scripts/update-device-catalog.cjs --from <Devices>`; dùng snapshot offline khi chạy.
 
-Dung lượng RAM/bộ nhớ thực tế phải đọc từ máy đang cắm, không gán dung lượng một SKU cho mọi máy cùng model. Máy gập chỉ mô tả màn hình chính khi xác minh được.
+## Nguồn
 
-Thiếu bằng chứng hoặc mâu thuẫn: bỏ trường khỏi `specs`, ghi ở `missing_fields`/`conflicts`. `None` nghĩa là nguồn xác nhận không có camera đó; trường bị bỏ trống nghĩa là chưa xác minh. Không coi thiếu thông số là lỗi kết nối hoặc chặn cài đặt. Không suy ra thành phần pin từ tên thương mại “Jinshajiang”. Một số model mới còn thiếu trường; không phải mọi file đã đủ thông số.
+- [HyperOS.fans / HegeKen/HyperData](https://hyperos.fans/zh/devices/): đối chiếu codename và ROM China, snapshot `56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728`. Không phải nguồn đầy đủ mã chứng nhận model. Nguồn công bố GPL-3.0; giấy phép trong `licenses/HyperData-GPL-3.0.txt`.
+- [KHwang9883/MobileModels](https://github.com/KHwang9883/MobileModels): mã model, codename và chú thích RAM/UFS theo mã, snapshot `2618dbf1fb9a79b451d7423b08592653e660e3f1`. Phần nhận diện chuyển đổi giữ giấy phép CC BY-NC-SA 4.0; bản đầy đủ trong `licenses/MobileModels-CC-BY-NC-SA-4.0.txt`.
+- [Fatty911/crawl_phones](https://github.com/Fatty911/crawl_phones), snapshot `6c36718cc2e972233b70fbfd2d82ec67e483ad0c`; [bytecharts/device_specs_gsmarena](https://github.com/bytecharts/device_specs_gsmarena), snapshot `8be80e6dca116988484fb968add3d7a50e5f844b`; bảng sản phẩm China của ZOL và tin ra mắt từ IT之家: chỉ trích dữ kiện phần cứng, không kèm bài viết, ảnh hoặc giá. Các repository phần cứng không công bố giấy phép tái phân phối rõ trong bản đã kiểm tra; việc công khai không cấp quyền thương mại với nội dung bên thứ ba.
 
-## Nguồn và ghi công
-
-- [KHwang9883/MobileModels](https://github.com/KHwang9883/MobileModels): mã model, codename, tên và chú thích RAM/UFS theo mã. Nguồn CC BY-NC-SA 4.0; phần nhận diện chuyển đổi giữ điều kiện đó. Giấy phép đầy đủ trong `licenses/MobileModels-CC-BY-NC-SA-4.0.txt`.
-- [HegeKen/HyperData](https://github.com/HegeKen/HyperData): dữ liệu gốc HyperOS.fans để đối chiếu codename và ROM China. Nguồn GPL-3.0; bản giấy phép trong `licenses/HyperData-GPL-3.0.txt`. Chỉ trích dữ kiện ROM cần đối chiếu, không sao chép mã chương trình.
-- [Fatty911/crawl_phones](https://github.com/Fatty911/crawl_phones): dữ kiện China từ ZOL/PConline/CNMO, snapshot `6c36718cc2e972233b70fbfd2d82ec67e483ad0c`.
-- [bytecharts/device_specs_gsmarena](https://github.com/bytecharts/device_specs_gsmarena): dữ kiện phần cứng chọn lọc. Đối chiếu mã kèm tên tương thích, bản China chỉ rõ hoặc họ máy chỉ có mã China trong snapshot nhận diện. Không suy đoán chỉ từ codename/tên gần giống; nguồn có thể gán nhầm mã.
-- Bảng sản phẩm China của ZOL và tin ra mắt từ IT之家: URL trong từng file. Chỉ trích dữ kiện cho các trường trên, không kèm bài viết, ảnh, giá bán hay đánh giá.
-
-Các nguồn phần cứng không có giấy phép tái phân phối rõ trong repository đã kiểm tra; công khai không đồng nghĩa giấy phép thương mại tự do. Thông báo này không cấp quyền đối với nội dung bên thứ ba. Commit/SHA-256 ghi trong index và từng file; không có sự bảo chứng của Xiaomi hoặc tác giả nguồn.
-
-## Cập nhật
-
-Sửa đúng file model, giữ `market: CN`, cập nhật nguồn và `field_sources`, tính lại SHA-256 trong index. Không đổi tên file thành codename; không thêm serial/IMEI, trạng thái root, bootloader hoặc ngày kích hoạt.
-
-Trong source DT TOOL, chạy `app/scripts/update-device-catalog.cjs --from <đường-dẫn-Devices>` để kiểm tra toàn bộ file, checksum/schema rồi thay snapshot offline. Không có `--from` thì dùng đúng commit repository đã ghim trong snapshot. Công cụ cập nhật không chạy khi đổi tab/cắm điện thoại.
+[Nguồn chi tiết từng mã và bằng chứng ROM trước khi tối giản](https://github.com/tinhtinh1908/DTTOOL/tree/18c090d8fc6278ca2e311f59be01d8f761b3357a/Devices) vẫn được giữ trong lịch sử Git. Bản tối giản bỏ thông tin nguồn lặp, danh sách trường thiếu và metadata dài; giữ nguyên các thông số đã có và khác biệt giữa biến thể. Không có sự bảo chứng từ Xiaomi hoặc tác giả nguồn.

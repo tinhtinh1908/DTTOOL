@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi 12S Ultra",
+  "models": [
+    "2203121C"
+  ],
+  "codenames": [
+    "thor"
+  ],
+  "specs": {
+    "display_size": "6.73 inches",
+    "display_type": "LTPO AMOLED",
+    "resolution": "1440 x 3200",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "48 MP",
+    "camera_tele": "48 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 4860 mAh"
+  }
+}

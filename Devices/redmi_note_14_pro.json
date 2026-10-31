@@ -1,0 +1,23 @@
+{
+  "name": "Redmi Note 14 Pro",
+  "models": [
+    "24090RA29C"
+  ],
+  "codenames": [
+    "malachite"
+  ],
+  "specs": {
+    "display_size": "6.67 inches",
+    "display_type": "OLED",
+    "resolution": "1220 x 2712",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "camera_main": "50 MP",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "5500 mAh"
+  }
+}

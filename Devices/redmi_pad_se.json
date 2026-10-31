@@ -1,0 +1,24 @@
+{
+  "name": "Redmi Pad SE",
+  "models": [
+    "23073RPBFC"
+  ],
+  "codenames": [
+    "xun"
+  ],
+  "specs": {
+    "display_size": "11 inches",
+    "display_type": "LCD",
+    "resolution": "1200 x 1920",
+    "ram": "LPDDR4X",
+    "storage": "eMMC 5.1",
+    "camera_main": "8 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "5 MP",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "usb": "USB Type-C",
+    "battery": "8000 mAh"
+  }
+}

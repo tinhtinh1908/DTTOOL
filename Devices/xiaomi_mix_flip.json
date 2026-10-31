@@ -1,0 +1,27 @@
+{
+  "name": "Xiaomi MIX Flip",
+  "models": [
+    "2405CPX3DC"
+  ],
+  "codenames": [
+    "ruyi"
+  ],
+  "specs": {
+    "display_size": "6.86 inches",
+    "display_type": "LTPO AMOLED",
+    "resolution": "1224 x 2912",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "50 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C"
+  },
+  "conflicts": [
+    "battery"
+  ]
+}

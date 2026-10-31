@@ -1,0 +1,19 @@
+{
+  "name": "REDMI K100",
+  "models": [
+    "M786BC"
+  ],
+  "codenames": [
+    "warsaw",
+    "warsaw_y",
+    "yanan"
+  ],
+  "specs": {
+    "display_size": "6.83 inches",
+    "refresh_rate": "165 Hz",
+    "ram": "LPDDR5X Ultra",
+    "storage": "UFS 4.1",
+    "camera_main": "50 MP",
+    "battery": "10000 mAh"
+  }
+}

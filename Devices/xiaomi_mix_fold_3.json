@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi MIX Fold 3",
+  "models": [
+    "2308CPXD0C"
+  ],
+  "codenames": [
+    "babylon"
+  ],
+  "specs": {
+    "display_size": "8.03 inches",
+    "display_type": "LTPO AMOLED",
+    "resolution": "1916 x 2160",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "10 MP",
+    "camera_tele": "10 MP",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "usb": "USB Type-C 3.2 Gen 1",
+    "battery": "Li-Po 4800 mAh"
+  }
+}

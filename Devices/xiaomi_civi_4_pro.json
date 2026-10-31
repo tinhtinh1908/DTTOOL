@@ -1,0 +1,25 @@
+{
+  "name": "Xiaomi Civi 4 Pro",
+  "models": [
+    "24053PY09C"
+  ],
+  "codenames": [
+    "chenfeng"
+  ],
+  "specs": {
+    "display_size": "6.55 inches",
+    "display_type": "AMOLED",
+    "resolution": "1236 x 2750",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "32 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "32 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "Li-Po 4700 mAh"
+  }
+}

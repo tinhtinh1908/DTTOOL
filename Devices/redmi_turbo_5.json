@@ -1,0 +1,27 @@
+{
+  "name": "REDMI Turbo 5",
+  "models": [
+    "2511FRT34C"
+  ],
+  "codenames": [
+    "klee"
+  ],
+  "specs": {
+    "display_size": "6.59 inches",
+    "display_type": "AMOLED",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.1",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
+    "battery": "7560 mAh"
+  },
+  "conflicts": [
+    "resolution"
+  ]
+}
