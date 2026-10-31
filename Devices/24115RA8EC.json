@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "model": "24115RA8EC",
+  "name": "Redmi Note 14 Pro+",
+  "aliases": [
+    "Redmi Note 14 Pro+ 5G"
+  ],
+  "cn_name": "Redmi Note 14 Pro+",
+  "codenames": [
+    "amethyst"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2,
+    3
+  ],
+  "specs": {
+    "Display · Size": "6.67 inches",
+    "Display · Type": "OLED",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "1220 x 2712",
+    "ram": "LPDDR4X",
+    "Battery · Type": "6200 mAh",
+    "Comms · WLAN": "Wi-Fi 6",
+    "Comms · Bluetooth": "5.4",
+    "Comms · USB": "USB Type-C",
+    "camera_main": "50 MP",
+    "camera_front": "20 MP"
+  },
+  "field_sources": {
+    "Display · Size": "CN-catalog",
+    "Display · Type": "CN-catalog",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "Battery · Type": "CN-catalog",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "camera_main": "CN-catalog",
+    "camera_front": "CN-catalog"
+  },
+  "missing_fields": [
+    "storage",
+    "camera_ultrawide",
+    "camera_tele",
+    "battery_chemistry"
+  ],
+  "conflicts": [
+    {
+      "field": "storage",
+      "values": [
+        "UFS 2.2",
+        "UFS 3.1"
+      ]
+    }
+  ],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/amethyst.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.4.0.VOPCNXM",
+          "release": "2025-01-11"
+        },
+        {
+          "major": 3,
+          "version": "OS3.0.2.0.WOPCNXM",
+          "release": "2025-12-10"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "中关村在线",
+        "id": "2108794",
+        "name": "Redmi Note 14 Pro+(12GB/256GB)"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "2108933",
+        "name": "Redmi Note 14 Pro+(12GB/512GB)"
+      }
+    ]
+  }
+}

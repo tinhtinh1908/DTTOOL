@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "model": "24072PX77C",
+  "name": "Xiaomi MIX Fold 4",
+  "aliases": [
+    "Xiaomi MIX Fold 4"
+  ],
+  "cn_name": "Xiaomi MIX Fold 4",
+  "codenames": [
+    "goku"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2,
+    3
+  ],
+  "specs": {
+    "Display · Type": "LTPO AMOLED",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "2224 x 2488",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "Comms · Bluetooth": "5.4",
+    "Comms · USB": "USB Type-C",
+    "camera_ultrawide": "12 MP",
+    "camera_tele": "10 MP",
+    "Display · Size": "7.98 inches",
+    "Battery · Type": "5100 mAh",
+    "camera_main": "50 MP",
+    "camera_front": "16 MP"
+  },
+  "field_sources": {
+    "Display · Type": "CN-catalog+hardware-reference",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "storage": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "camera_ultrawide": "CN-catalog",
+    "camera_tele": "CN-catalog",
+    "Display · Size": "CN-catalog",
+    "Battery · Type": "CN-catalog",
+    "camera_main": "hardware-reference",
+    "camera_front": "hardware-reference"
+  },
+  "missing_fields": [
+    "Comms · WLAN",
+    "battery_chemistry"
+  ],
+  "conflicts": [
+    {
+      "field": "Comms · WLAN",
+      "values": [
+        "Wi-Fi 7",
+        "Wi-Fi 6"
+      ]
+    }
+  ],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/goku.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.5.0.VNVCNXM",
+          "release": "2024-11-30"
+        },
+        {
+          "major": 3,
+          "version": "OS3.0.3.0.WNVCNXM",
+          "release": "2025-11-13"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "太平洋电脑网",
+        "id": "2290539",
+        "name": "Xiaomi MIX Fold 4"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "2086684",
+        "name": "小米MIX FOLD 4(12GB/256GB)"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1627079",
+        "name": "小米MIX FOLD4(16+512GB)"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1627080",
+        "name": "小米MIX FOLD4(16+1TB)"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/Mix_Fold_4/details.json",
+      "sha256": "01f736ba0f3e17a9d9f8a03dd99ec1ecac58ea96c250a81e7f06d12340abb9da",
+      "match": "China-only-family-name"
+    }
+  }
+}

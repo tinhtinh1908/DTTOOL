@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "model": "2410DPN6CC",
+  "name": "Xiaomi 15 Pro",
+  "aliases": [
+    "Xiaomi 15 Pro"
+  ],
+  "cn_name": "Xiaomi 15 Pro",
+  "codenames": [
+    "haotian"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2,
+    3,
+    4
+  ],
+  "specs": {
+    "Display · Type": "LTPO AMOLED",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "1440 x 3200",
+    "storage": "UFS 4.0",
+    "Comms · WLAN": "Wi-Fi 7",
+    "Comms · Bluetooth": "5.4",
+    "Comms · USB": "USB Type-C 3.2 Gen 2",
+    "camera_ultrawide": "50 MP",
+    "camera_tele": "50 MP",
+    "Display · Size": "6.73 inches",
+    "ram": "LPDDR5X",
+    "Battery · Type": "Si/C Li-Ion 6100 mAh",
+    "camera_main": "50 MP",
+    "camera_front": "32 MP"
+  },
+  "field_sources": {
+    "Display · Type": "CN-catalog+hardware-reference",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "storage": "CN-catalog",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "camera_ultrawide": "CN-catalog",
+    "camera_tele": "CN-catalog",
+    "Display · Size": "CN-catalog",
+    "ram": "CN-catalog",
+    "Battery · Type": "CN-catalog+hardware-reference",
+    "camera_main": "CN-catalog",
+    "camera_front": "CN-catalog"
+  },
+  "missing_fields": [],
+  "conflicts": [],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/haotian.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.7.241219.VOBCNXM.EP.STDEE",
+          "release": "2025-03-24"
+        },
+        {
+          "major": 3,
+          "version": "OS3.0.3.0.WOBCNXM",
+          "release": "2025-10-14"
+        },
+        {
+          "major": 4,
+          "version": "OS4.0.0.5.XOBCNXM",
+          "release": "2026-08-27"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "太平洋电脑网",
+        "id": "2336159",
+        "name": "Xiaomi 15 Pro"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1627205",
+        "name": "小米15 Pro(16+1TB)"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "2111497",
+        "name": "小米15 Pro(12GB/256GB)"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "2112061",
+        "name": "小米15 Pro(16GB/512GB)"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/15_Pro/details.json",
+      "sha256": "471096a84e4c59ccee5132081411ab332e8232f91382fc2d4e32d8211a37321b",
+      "match": "exact-model-and-name"
+    }
+  }
+}

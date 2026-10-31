@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "model": "22011211C",
+  "name": "Redmi K50 Pro",
+  "aliases": [
+    "Redmi K50 Pro"
+  ],
+  "cn_name": "Redmi K50 Pro",
+  "codenames": [
+    "matisse"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2
+  ],
+  "specs": {
+    "Display · Size": "6.67 inches",
+    "Display · Type": "AMOLED",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "1440 x 3200",
+    "ram": "LPDDR5",
+    "Battery · Type": "Li-Po 5000 mAh",
+    "Comms · WLAN": "Wi-Fi 6",
+    "Comms · Bluetooth": "5.3",
+    "Comms · USB": "USB Type-C",
+    "storage": "UFS 3.1",
+    "camera_main": "108 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP"
+  },
+  "field_sources": {
+    "Display · Size": "CN-catalog",
+    "Display · Type": "CN-catalog",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "Battery · Type": "CN-catalog+hardware-reference",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "storage": "CN-catalog",
+    "camera_main": "hardware-reference",
+    "camera_ultrawide": "hardware-reference",
+    "camera_tele": "hardware-reference",
+    "camera_front": "hardware-reference"
+  },
+  "missing_fields": [],
+  "conflicts": [],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/matisse.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.1.0.ULKCNXM",
+          "release": "2025-03-24"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "CNMO",
+        "id": "1625511",
+        "name": "红米K50 Pro(8+128GB)"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1625891",
+        "name": "红米K50 Pro(8+256GB)"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1625893",
+        "name": "红米K50 Pro(12+512GB)"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "1378434",
+        "name": "Redmi K50 Pro（12GB/256GB）"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/Redmi_K50_Pro/details.json",
+      "sha256": "1d583e804ad693e38a4932e47a101749a5327899da2cab88237dd9cf9bfac184",
+      "match": "exact-model-and-name"
+    }
+  }
+}

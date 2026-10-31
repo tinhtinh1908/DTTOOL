@@ -1,0 +1,1098 @@
+{
+  "schema": 1,
+  "market": "CN",
+  "updated": "2026-10-31",
+  "scope": "China models with recorded China HyperOS 2, 3 or 4 firmware released on or before 2026-10-31",
+  "fields": [
+    "Display · Size",
+    "Display · Type",
+    "Display · Resolution",
+    "refresh_rate",
+    "ram",
+    "storage",
+    "camera_main",
+    "camera_ultrawide",
+    "camera_tele",
+    "camera_front",
+    "Comms · WLAN",
+    "Comms · Bluetooth",
+    "Comms · USB",
+    "Battery · Type"
+  ],
+  "sources": {
+    "retrieved": "2026-10-31",
+    "identity_commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1",
+    "spec_commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+    "hashes": {
+      "xiaomi_cn.md": "9a6bf927bb27476d25c14a0ae49dca39d5449c6822ffa3ebbe16bce7ddf02570",
+      "xiaomi_en.md": "ff827fd1d32f7c85a7a757ccdf39b15c91bc0854d1a296790fd5c6e735a64ec6",
+      "phones.json": "8c4b30dcce9df51e35878ff853cd7318efd5ae4abf978a8f8ca93a5eae0eae34"
+    },
+    "hyperdata_commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+    "hyperdata_devices_sha256": "3f29eb920af35acac82b2aaa96ea59d7fe6aabf567a4723c9b65b3916d8edfd3",
+    "extra_specs_sha256": "649bde0c79132cf7a7721e23dc38ba933d921ec23a8a03951ee1800592ed17fe",
+    "reviewed_specs_sha256": "844d2ad7d437b9defecf8a8cc85bc4c72c0f17f9c1e1a8067f7da9f4643a0a07"
+  },
+  "devices": {
+    "2107119DC": {
+      "name": "Xiaomi 11 Lite 5G NE",
+      "codenames": [
+        "lisa"
+      ],
+      "file": "2107119DC.json",
+      "sha256": "1e7a08590d4ce7fef11c5887a3d397b53c2e6d8e79eb4eede29d00d23bac7b94"
+    },
+    "21121210C": {
+      "name": "Redmi K50G",
+      "codenames": [
+        "ingres"
+      ],
+      "file": "21121210C.json",
+      "sha256": "80b7fbd4333aaf74132552cf8afe4e8c8553d0c931ba79b4c35256bada13208d"
+    },
+    "22011211C": {
+      "name": "Redmi K50 Pro",
+      "codenames": [
+        "matisse"
+      ],
+      "file": "22011211C.json",
+      "sha256": "5c1fca803a4faa83fa1b829731265e41abc9a00b7be8b47dd3b533362157d0c5"
+    },
+    "2201122C": {
+      "name": "Xiaomi 12 Pro",
+      "codenames": [
+        "zeus"
+      ],
+      "file": "2201122C.json",
+      "sha256": "52b9bc2ddc93bb4909c49737b7f44d04d8ddeaa858368511774d559d724e315a"
+    },
+    "2201123C": {
+      "name": "Xiaomi 12",
+      "codenames": [
+        "cupid"
+      ],
+      "file": "2201123C.json",
+      "sha256": "ac2d8f71ea305a85e43694384af7957e0df15cf2b1576bad169b256dbad42416"
+    },
+    "2203121C": {
+      "name": "Xiaomi 12S Ultra",
+      "codenames": [
+        "thor"
+      ],
+      "file": "2203121C.json",
+      "sha256": "ba2415c64f5383af0f4adc8f2c79e11baea9512f4d87ed74c9b7ff8ede5f36a0"
+    },
+    "22041211AC": {
+      "name": "Redmi K50",
+      "codenames": [
+        "rubens"
+      ],
+      "file": "22041211AC.json",
+      "sha256": "65881d4d9b1b6382b0cc8c3bca2f119c23c9f58ce9e4ba96502dec8e1af95669"
+    },
+    "22041216C": {
+      "name": "Redmi Note 11T Pro",
+      "codenames": [
+        "xaga"
+      ],
+      "file": "22041216C.json",
+      "sha256": "fefdb42873116b360242892b74ba57b02e6498dc07abce75f51276c0355b40eb"
+    },
+    "22041216UC": {
+      "name": "Redmi Note 11T Pro+",
+      "codenames": [
+        "xaga",
+        "xagapro"
+      ],
+      "file": "22041216UC.json",
+      "sha256": "6b987e5cd1aae99f4fa05d589be9f79954716fecdb9aa49b204a56dde16cb9d9"
+    },
+    "22061218C": {
+      "name": "Xiaomi MIX Fold 2",
+      "codenames": [
+        "zizhan"
+      ],
+      "file": "22061218C.json",
+      "sha256": "bfe6892461ad6ca4ac25bf23b658c639c7b63a07bd66e165a374afb4f653bc63"
+    },
+    "2206122SC": {
+      "name": "Xiaomi 12S Pro",
+      "codenames": [
+        "unicorn"
+      ],
+      "file": "2206122SC.json",
+      "sha256": "aba0acf9283785abe0ae0b62f139deb3c6a7f6c8aae0c41ee0d24dc2a2199738"
+    },
+    "2206123SC": {
+      "name": "Xiaomi 12S",
+      "codenames": [
+        "mayfly"
+      ],
+      "file": "2206123SC.json",
+      "sha256": "bf6424fbdd5dde9dde01b405a947679eafce0cae14f7bed983070d0fe3bc7aae"
+    },
+    "2207122MC": {
+      "name": "Xiaomi 12 Pro Dimensity",
+      "codenames": [
+        "daumier"
+      ],
+      "file": "2207122MC.json",
+      "sha256": "b16275554032299bc3ffefe5281779da8ac23e07eda3bb0bba9d57f9bedd3927"
+    },
+    "22081212C": {
+      "name": "Redmi K50 Ultra",
+      "codenames": [
+        "diting"
+      ],
+      "file": "22081212C.json",
+      "sha256": "cae87054765065315863b4e9a9a89e3127ac4546949001cb8238028a470fd6ef"
+    },
+    "22081281AC": {
+      "name": "Xiaomi Pad 5 Pro 12.4",
+      "codenames": [
+        "dagu"
+      ],
+      "file": "22081281AC.json",
+      "sha256": "e02fce6a580ddee7578b4a0bd711f5fc761d1092054f6567a8fb377ce8808398"
+    },
+    "2209129SC": {
+      "name": "Xiaomi Civi 2",
+      "codenames": [
+        "ziyi"
+      ],
+      "file": "2209129SC.json",
+      "sha256": "29ee733f515b241cfeb90033689450356b74efebc8d284a823b81f50c09ea35c"
+    },
+    "22101316C": {
+      "name": "Redmi Note 12 Pro",
+      "codenames": [
+        "ruby"
+      ],
+      "file": "22101316C.json",
+      "sha256": "a03e63942bcbb96dfa05f239bbaa41557385d24c03706f670880a6ed05b732e9"
+    },
+    "22101316UC": {
+      "name": "Redmi Note 12 Discovery Edition",
+      "codenames": [
+        "ruby",
+        "rubyplus"
+      ],
+      "file": "22101316UC.json",
+      "sha256": "8a0f1ac4e10d7d16fb5b2a33a2a34d9e2827116c48804baf50f2bb03cf5571e1"
+    },
+    "22101316UCP": {
+      "name": "Redmi Note 12 Pro+",
+      "codenames": [
+        "ruby",
+        "rubypro"
+      ],
+      "file": "22101316UCP.json",
+      "sha256": "3476abc7eadaecdbb5de9c2779a13af8c35b8f2575c3d07ed26bbfb6901a98d7"
+    },
+    "22101317C": {
+      "name": "Redmi Note 12 5G",
+      "codenames": [
+        "sunstone"
+      ],
+      "file": "22101317C.json",
+      "sha256": "8d17b9c581bc0afcb4f784ba30af4e4803e72db1c1caa6c64050f64ed2d97aec"
+    },
+    "22101320C": {
+      "name": "Redmi Note 12 Pro Speed",
+      "codenames": [
+        "redwood"
+      ],
+      "file": "22101320C.json",
+      "sha256": "137b1ea49c8f135216b4a6ed27096c48dcf799a4c4cb36e38ab4af171059efe5"
+    },
+    "2210132C": {
+      "name": "Xiaomi 13 Pro",
+      "codenames": [
+        "nuwa"
+      ],
+      "file": "2210132C.json",
+      "sha256": "9581281548713b14db727fafa5af6c61087481550af262e6a833e96c737d596f"
+    },
+    "2211133C": {
+      "name": "Xiaomi 13",
+      "codenames": [
+        "fuxi"
+      ],
+      "file": "2211133C.json",
+      "sha256": "588c905b9945669c977a76baaa3dd096b82dce98981f86ac9946625474b2116b"
+    },
+    "22122RK93C": {
+      "name": "Redmi K60E",
+      "codenames": [
+        "rembrandt"
+      ],
+      "file": "22122RK93C.json",
+      "sha256": "6a973e973f1f9891993d7d6fc03db927953b418602982726c905115e89178483"
+    },
+    "22127RK46C": {
+      "name": "Redmi K60 Pro",
+      "codenames": [
+        "socrates"
+      ],
+      "file": "22127RK46C.json",
+      "sha256": "d4fb02009a430c189fd78515c35663f870d80ad1c62610281e106db1306de10b"
+    },
+    "23013RK75C": {
+      "name": "Redmi K60",
+      "codenames": [
+        "mondrian"
+      ],
+      "file": "23013RK75C.json",
+      "sha256": "875de292d8008434f3753dba848cc974c0629dcd3771592c9a71f326c014f21d"
+    },
+    "23043RP34C": {
+      "name": "Xiaomi Pad 6",
+      "codenames": [
+        "pipa"
+      ],
+      "file": "23043RP34C.json",
+      "sha256": "e92e6bdc0d56ee1db666fae2232df1aa524e56736def2a823bbf3cd6ab7376a3"
+    },
+    "23046PNC9C": {
+      "name": "Xiaomi Civi 3",
+      "codenames": [
+        "yuechu"
+      ],
+      "file": "23046PNC9C.json",
+      "sha256": "a79c611ff1cee9a385e053db2f420d146815d3097177c21232c21248fd889a73"
+    },
+    "23046RP50C": {
+      "name": "Xiaomi Pad 6 Pro",
+      "codenames": [
+        "liuqin"
+      ],
+      "file": "23046RP50C.json",
+      "sha256": "f44dfb01a81baf70ead947a5fec58b195c78555f7e94e0674e2f694ca3c538cb"
+    },
+    "23049RAD8C": {
+      "name": "Redmi Note 12 Turbo",
+      "codenames": [
+        "marble"
+      ],
+      "file": "23049RAD8C.json",
+      "sha256": "65e3df9d4323a4b08f5aef1f5ffa95c462d337358c9e5205fbdf5208aa767145"
+    },
+    "2304FPN6DC": {
+      "name": "Xiaomi 13 Ultra",
+      "codenames": [
+        "ishtar"
+      ],
+      "file": "2304FPN6DC.json",
+      "sha256": "e6f471094f714cf75554a33f06459507ffaa5f360ffc48cf3a1aefc8dab2360f"
+    },
+    "23054RA19C": {
+      "name": "Redmi Note 12T Pro",
+      "codenames": [
+        "pearl"
+      ],
+      "file": "23054RA19C.json",
+      "sha256": "75c595e10229e319596c995373a9ddd075525148c4211da2cef8e3a6c0f7b52c"
+    },
+    "23073RPBFC": {
+      "name": "Redmi Pad SE",
+      "codenames": [
+        "xun"
+      ],
+      "file": "23073RPBFC.json",
+      "sha256": "c87eb6ed0b64abe753d61f8caba0d321f96aaed4c76dd8c4422e26ea54d08a5c"
+    },
+    "23077RABDC": {
+      "name": "Redmi 12 5G",
+      "codenames": [
+        "sky",
+        "river"
+      ],
+      "file": "23077RABDC.json",
+      "sha256": "da2b161a65f6142e4b07debb16f0a5b3e8e632c51d740b6b8d2f7129be17ad58"
+    },
+    "23078RKD5C": {
+      "name": "Redmi K60 Ultra",
+      "codenames": [
+        "corot"
+      ],
+      "file": "23078RKD5C.json",
+      "sha256": "e7e730fea04bd0e191f335bb960533e20127afcdc4ab70bd911dad9657f97693"
+    },
+    "2307BRPDCC": {
+      "name": "Xiaomi Pad 6 Max",
+      "codenames": [
+        "yudi"
+      ],
+      "file": "2307BRPDCC.json",
+      "sha256": "5f0b7c08ba9032c8952750c8f391828167d1721454432a49968433ce0eae1956"
+    },
+    "2308CPXD0C": {
+      "name": "Xiaomi MIX Fold 3",
+      "codenames": [
+        "babylon"
+      ],
+      "file": "2308CPXD0C.json",
+      "sha256": "978121386a35af31a3535e0a572651b423e094ecd9329d1d2e63b45bd8030f8e"
+    },
+    "23090RA98C": {
+      "name": "Redmi Note 13 Pro+",
+      "codenames": [
+        "zircon"
+      ],
+      "file": "23090RA98C.json",
+      "sha256": "25372419e412b45052608914aedd3a67c165da72682fc52d03a76793a4dcfb4f"
+    },
+    "23113RKC6C": {
+      "name": "Redmi K70",
+      "codenames": [
+        "vermeer"
+      ],
+      "file": "23113RKC6C.json",
+      "sha256": "fa8ad05aef6f81cafb69712c9d9efb83334b5aa4641bdc9cb768e34210883a45"
+    },
+    "23116PN5BC": {
+      "name": "Xiaomi 14 Pro",
+      "codenames": [
+        "shennong"
+      ],
+      "file": "23116PN5BC.json",
+      "sha256": "c83cefd2fabe2413618aedd2101f47e957c5d56beabf55b4153a4627e31ff95a"
+    },
+    "23117RK66C": {
+      "name": "Redmi K70 Pro",
+      "codenames": [
+        "manet"
+      ],
+      "file": "23117RK66C.json",
+      "sha256": "caf0a91be738dfc3ce7fbc8de85c45f8d10629c9d86b506790a4d45b3e448d59"
+    },
+    "2311BPN23C": {
+      "name": "Xiaomi 14 Pro",
+      "codenames": [
+        "shennong",
+        "shennong_t"
+      ],
+      "file": "2311BPN23C.json",
+      "sha256": "ba6c31ac68373b98853064adbd9e78ad861e8dbbd8116a86c87081fc85793a5e"
+    },
+    "2311DRK48C": {
+      "name": "Redmi K70E",
+      "codenames": [
+        "duchamp"
+      ],
+      "file": "2311DRK48C.json",
+      "sha256": "3d6d0232e61dcda224550cfdf94a6aa275af14f83056772187d18eac4b424f79"
+    },
+    "2311FRAFDC": {
+      "name": "Redmi Note 13R Pro",
+      "codenames": [
+        "gold"
+      ],
+      "file": "2311FRAFDC.json",
+      "sha256": "b02e274c10f198a1bce899af747438c0612bc82b24426755809443c8744b62b6"
+    },
+    "23124RN87C": {
+      "name": "Redmi 13C 5G",
+      "codenames": [
+        "air"
+      ],
+      "file": "23124RN87C.json",
+      "sha256": "df3f0320f7d363b580bc1a9f4563aa37a0286ce0d5f759d4f4f32c92ff41228e"
+    },
+    "23127PN0CC": {
+      "name": "Xiaomi 14",
+      "codenames": [
+        "houji"
+      ],
+      "file": "23127PN0CC.json",
+      "sha256": "7b054e6c9f3d2afa72e8570bc656512d9c068a00617eb4c559f50c79fb16d17a"
+    },
+    "2312CRAD3C": {
+      "name": "Redmi Note 13 Pro",
+      "codenames": [
+        "garnet"
+      ],
+      "file": "2312CRAD3C.json",
+      "sha256": "b407c250541f710900a38f0bafeb7c4d05cc8c465b705d6e0e2fbb78574e5ac0"
+    },
+    "2312DRA50C": {
+      "name": "Redmi Note 13 Pro",
+      "codenames": [
+        "garnet"
+      ],
+      "file": "2312DRA50C.json",
+      "sha256": "e6e0228a3c930c8085a324a943c943ac33eb1d0b7b765e43e2828fa2288495ef"
+    },
+    "2312DRAABC": {
+      "name": "Redmi Note 13 5G",
+      "codenames": [
+        "gold"
+      ],
+      "file": "2312DRAABC.json",
+      "sha256": "080cef16ac4e03d79b59e30499a2c17df76efc30d9271d9e075d879f1085f42f"
+    },
+    "24018RPACC": {
+      "name": "Xiaomi Pad 6S Pro",
+      "codenames": [
+        "sheng"
+      ],
+      "file": "24018RPACC.json",
+      "sha256": "d4f9b2a05c1a21d2464e0e25e718ec29d23dbacf581b4ed0fb52ddfaf64a5765"
+    },
+    "24031PN0DC": {
+      "name": "Xiaomi 14 Ultra",
+      "codenames": [
+        "aurora",
+        "aurorapro"
+      ],
+      "file": "24031PN0DC.json",
+      "sha256": "533e0b3843c186096136f25a06785b0c4db3212b3dadcee12b57d0aff69d6ce9"
+    },
+    "24053PY09C": {
+      "name": "Xiaomi Civi 4 Pro",
+      "codenames": [
+        "chenfeng"
+      ],
+      "file": "24053PY09C.json",
+      "sha256": "b3b0e2c77a5eb7db026626a5a77d9baecdb8408130eb1a851d7ea0d38becc52f"
+    },
+    "2405CPX3DC": {
+      "name": "Xiaomi MIX Flip",
+      "codenames": [
+        "ruyi"
+      ],
+      "file": "2405CPX3DC.json",
+      "sha256": "7a0f002dc37abcd906fb5ae82b0b7a8865d8c2ddff77579823ca300202313654"
+    },
+    "2405CRPFDC": {
+      "name": "Redmi Pad Pro",
+      "codenames": [
+        "dizi"
+      ],
+      "file": "2405CRPFDC.json",
+      "sha256": "56b5a42befe1193d081f3acf16709541c312015ba76ed1a01f9089412e138afc"
+    },
+    "24069RA21C": {
+      "name": "Redmi Turbo 3",
+      "codenames": [
+        "peridot"
+      ],
+      "file": "24069RA21C.json",
+      "sha256": "430150e65e280857d562b7bae3a38b1bfa4dfcbafdd4caf9810fc45cf3bc241c"
+    },
+    "2406ERN9CC": {
+      "name": "Redmi Note 13R",
+      "codenames": [
+        "breeze"
+      ],
+      "file": "2406ERN9CC.json",
+      "sha256": "3a264ca71ea26bbf370477cd517ba7d98593612672c32dd4b80e56877b85618e"
+    },
+    "24072PX77C": {
+      "name": "Xiaomi MIX Fold 4",
+      "codenames": [
+        "goku"
+      ],
+      "file": "24072PX77C.json",
+      "sha256": "12768cf1f756c2452b5b8effe722deed45da5a9a8cf01788ed2bef8d685e55c5"
+    },
+    "24074RPD2C": {
+      "name": "Redmi Pad Pro 5G",
+      "codenames": [
+        "ruan"
+      ],
+      "file": "24074RPD2C.json",
+      "sha256": "90ba6dd6938f6e5b3ec0b47264bcc501f12a96f0471259d6fafa9dae76ca1dae"
+    },
+    "2407FRK8EC": {
+      "name": "Redmi K70 Ultra",
+      "codenames": [
+        "rothko"
+      ],
+      "file": "2407FRK8EC.json",
+      "sha256": "72826ab7f19913ebb936f9295ab9d7c183b04557173d11ff6d6f281c2164b646"
+    },
+    "24090RA29C": {
+      "name": "Redmi Note 14 Pro",
+      "codenames": [
+        "malachite"
+      ],
+      "file": "24090RA29C.json",
+      "sha256": "1e6ad369d0b94b9832de3cac5a8bd4b1c914d50094e0353b09ab3a425e966da0"
+    },
+    "24091RPADC": {
+      "name": "Xiaomi Pad 7 Pro",
+      "codenames": [
+        "muyu"
+      ],
+      "file": "24091RPADC.json",
+      "sha256": "a94f8573303db865e79f63415b34eb65362966e65347868518bce7c308ead919"
+    },
+    "24094RAD4C": {
+      "name": "Redmi Note 14 5G",
+      "codenames": [
+        "beryl"
+      ],
+      "file": "24094RAD4C.json",
+      "sha256": "583b913eb83ec5c3da4bb7d1f8081b8e09a5779677776f0c71cd7013edd29769"
+    },
+    "2409BRN2CC": {
+      "name": "Redmi 14C",
+      "codenames": [
+        "lake",
+        "pond"
+      ],
+      "file": "2409BRN2CC.json",
+      "sha256": "72db7f57e4c32a8121d61840a118323e61e9b3bc4bf8a4d2d26a62959c21f9b1"
+    },
+    "2410CRP4CC": {
+      "name": "Xiaomi Pad 7",
+      "codenames": [
+        "uke"
+      ],
+      "file": "2410CRP4CC.json",
+      "sha256": "4736492bf5e1bfe02757f399ca8068dc355a49f65ed9d98496e48bf071f6203b"
+    },
+    "2410DPN6CC": {
+      "name": "Xiaomi 15 Pro",
+      "codenames": [
+        "haotian"
+      ],
+      "file": "2410DPN6CC.json",
+      "sha256": "4bd0c1157f06eb7eb1b3eb78119e6e0a1e904f5bd198c35fda40b08a03edaa3f"
+    },
+    "24115RA8EC": {
+      "name": "Redmi Note 14 Pro+",
+      "codenames": [
+        "amethyst"
+      ],
+      "file": "24115RA8EC.json",
+      "sha256": "7ab10c91b346ec66ce2c717eff1f8131a2a7c09db5009d41ac96236eef841f1a"
+    },
+    "24117RK2CC": {
+      "name": "REDMI K80",
+      "codenames": [
+        "zorn"
+      ],
+      "file": "24117RK2CC.json",
+      "sha256": "4497116b358c1145b9c4c55301b7809c16ecb8d8097909d8f01f68be0d86da8b"
+    },
+    "2411DRN47C": {
+      "name": "Redmi 14R 5G",
+      "codenames": [
+        "flame"
+      ],
+      "file": "2411DRN47C.json",
+      "sha256": "0e187f07066b704eccd95367a023197e7a60064fc9b4743b495f079f68a43c48"
+    },
+    "24122RKC7C": {
+      "name": "REDMI K80 Pro",
+      "codenames": [
+        "miro"
+      ],
+      "file": "24122RKC7C.json",
+      "sha256": "a304dc6e4dbe1833ae1ec28530ccb95f2e504859a63b6349e6fb4141fbea5343"
+    },
+    "24127RK2CC": {
+      "name": "REDMI K80 Pro",
+      "codenames": [
+        "miro"
+      ],
+      "file": "24127RK2CC.json",
+      "sha256": "6c29a780312ea6781e76b0b9740dd11bc9d2eb4ea0f54dce620561ed3335c1f6"
+    },
+    "24129PN74C": {
+      "name": "Xiaomi 15",
+      "codenames": [
+        "dada"
+      ],
+      "file": "24129PN74C.json",
+      "sha256": "08d0bd352d6f1da1059c88b630cbc4f5781fd8a0f9912effb5b703b3b8bb690f"
+    },
+    "24129RT7CC": {
+      "name": "REDMI Turbo 4",
+      "codenames": [
+        "rodin"
+      ],
+      "file": "24129RT7CC.json",
+      "sha256": "98c5bc523de0be63daa79795d1d243e833da28a4ac27ec888b72794af38f9497"
+    },
+    "25010PN30C": {
+      "name": "Xiaomi 15 Ultra",
+      "codenames": [
+        "xuanyuan"
+      ],
+      "file": "25010PN30C.json",
+      "sha256": "ead2e132582d77bfa1afb5a9245cb370b25aa326e0affec726326b768e1ac35a"
+    },
+    "25019PNF3C": {
+      "name": "Xiaomi 15 Ultra",
+      "codenames": [
+        "xuanyuan"
+      ],
+      "file": "25019PNF3C.json",
+      "sha256": "359daae9dc965aad53452391067c967c3ae66ec90c761676800783e9546ba763"
+    },
+    "25032RP42C": {
+      "name": "Xiaomi Pad 7 Ultra",
+      "codenames": [
+        "jinghu"
+      ],
+      "file": "25032RP42C.json",
+      "sha256": "50e6dbb9ba56c2085a17b25eabccbe8e8956d61375478a80595ec66911071ccd"
+    },
+    "25040RP0AC": {
+      "name": "REDMI Pad 2",
+      "codenames": [
+        "taiko"
+      ],
+      "file": "25040RP0AC.json",
+      "sha256": "4c14c2deae13b882bda16ab37ad2b937c38d15e39bcd6ef5f5cced73e69161c8"
+    },
+    "25042PN24C": {
+      "name": "Xiaomi 15S Pro",
+      "codenames": [
+        "dijun"
+      ],
+      "file": "25042PN24C.json",
+      "sha256": "1a2aa30924808fb5053ea3c4d27fb8eca753cc01f810f85c922d003368cdd893"
+    },
+    "25053RP5CC": {
+      "name": "Xiaomi Pad 7S Pro 12.5",
+      "codenames": [
+        "violin"
+      ],
+      "file": "25053RP5CC.json",
+      "sha256": "ca0340684045ba1e01d6fbe7f48e4cab90c50731862b6c918606f4f9f633cf59"
+    },
+    "25053RT47C": {
+      "name": "REDMI Turbo 4 Pro",
+      "codenames": [
+        "onyx"
+      ],
+      "file": "25053RT47C.json",
+      "sha256": "c8f553f66109e1aca0c568d7472affe93b27f15a2b35c61211b2ddc72babc838"
+    },
+    "25057RA09C": {
+      "name": "REDMI Note 15R",
+      "codenames": [
+        "spring"
+      ],
+      "file": "25057RA09C.json",
+      "sha256": "fcf4d0fd19a99b4c5fd400911ba6c832b9a81aa201011923db912b9ff0c8f0f3"
+    },
+    "2505APX7BC": {
+      "name": "Xiaomi MIX Flip 2",
+      "codenames": [
+        "bixi"
+      ],
+      "file": "2505APX7BC.json",
+      "sha256": "f2240ae5db14a4592bf51575a52bdbf7efa233eaf23fd0c5d0e48feb223f5a96"
+    },
+    "25060RK16C": {
+      "name": "REDMI K80 Ultra",
+      "codenames": [
+        "dali"
+      ],
+      "file": "25060RK16C.json",
+      "sha256": "95036b6ea2ded1308a6fbec57f2f5baae915ce047ad2b9239d705a73cde1c2e1"
+    },
+    "25067PYE3C": {
+      "name": "Xiaomi Civi 5 Pro",
+      "codenames": [
+        "luming"
+      ],
+      "file": "25067PYE3C.json",
+      "sha256": "c54c30e2cbe49747e8ac3ad18643aeb02f7fbb46ba43d7f54f52d7cb56aa2792"
+    },
+    "25079RPDCC": {
+      "name": "REDMI K Pad",
+      "codenames": [
+        "turner"
+      ],
+      "file": "25079RPDCC.json",
+      "sha256": "c3b1e1ed5f0949cf38db7a8a76be5cd5ad79dee6f61305f5ab3d7d5fa5c4f1f7"
+    },
+    "25080RABDC": {
+      "name": "REDMI Note 15 Pro",
+      "codenames": [
+        "lapis"
+      ],
+      "file": "25080RABDC.json",
+      "sha256": "72781528aa63ac82b626cf4589b34ac9a5a515d45255edb8a8d52af32d40b1a6"
+    },
+    "25082RNC1C": {
+      "name": "REDMI 15R 5G",
+      "codenames": [
+        "tornado"
+      ],
+      "file": "25082RNC1C.json",
+      "sha256": "c1441945bfa8562dcde33ba18f919c1cff9e1d4bcc638b7f3a7eeaff1778f641"
+    },
+    "25091RP04C": {
+      "name": "Xiaomi Pad 8 Pro",
+      "codenames": [
+        "piano"
+      ],
+      "file": "25091RP04C.json",
+      "sha256": "c8a78dbd85a3c39feeac0cab013d135b41e39ae51379bdc1bd27e8b6812d915a"
+    },
+    "25097RP43C": {
+      "name": "Xiaomi Pad 8",
+      "codenames": [
+        "yupei"
+      ],
+      "file": "25097RP43C.json",
+      "sha256": "35cce27ae4e6812f12f09ababd738bd695905e49d5f5d275ac0823449b1ec277"
+    },
+    "25098PN5AC": {
+      "name": "Xiaomi 17 Pro",
+      "codenames": [
+        "pandora"
+      ],
+      "file": "25098PN5AC.json",
+      "sha256": "70867477eb9d5873b07fe1d5ab9c7953d4a62d7e577947297d03282301b86235"
+    },
+    "25098RA98C": {
+      "name": "REDMI Note 15",
+      "codenames": [
+        "kunzite"
+      ],
+      "file": "25098RA98C.json",
+      "sha256": "ea8bef0bf3ba4249dc99a5d00a4c52c9fa7145df5a81f94b5bf4a49edada941b"
+    },
+    "25099RP13C": {
+      "name": "REDMI Pad 2 Pro",
+      "codenames": [
+        "flute"
+      ],
+      "file": "25099RP13C.json",
+      "sha256": "5dac66fb6c7f44ae860c904fa5a158375a9619af969f600b16ddf1e31dfd0fe9"
+    },
+    "2509BRP2DC": {
+      "name": "REDMI Pad 2 Pro 5G",
+      "codenames": [
+        "organ"
+      ],
+      "file": "2509BRP2DC.json",
+      "sha256": "64ca30af3e3b4d2df0a594fd1e591f19ca8d3a7b7d3b89e3461bbca17c7b06e7"
+    },
+    "2509FPN0BC": {
+      "name": "Xiaomi 17 Pro Max",
+      "codenames": [
+        "popsicle"
+      ],
+      "file": "2509FPN0BC.json",
+      "sha256": "8e02355f28abfcfe8f65cf396f5b710a5b5dde47aeb08965ad482e1f2bf46d18"
+    },
+    "25102RK69C": {
+      "name": "REDMI K90 Pro Max",
+      "codenames": [
+        "myron"
+      ],
+      "file": "25102RK69C.json",
+      "sha256": "3902044d52393fee1056294b8598d7ac4b9096c266223201c6a691569e9bf331"
+    },
+    "25102RKBEC": {
+      "name": "REDMI K90 Pro Max",
+      "codenames": [
+        "myron"
+      ],
+      "file": "25102RKBEC.json",
+      "sha256": "867346b00d744bd548556cecfc4e1c9454041c89be8d743092eafc26490f87d7"
+    },
+    "25104RADAC": {
+      "name": "REDMI Note 15 Pro+",
+      "codenames": [
+        "flourite"
+      ],
+      "file": "25104RADAC.json",
+      "sha256": "7ccc13cd30c621f5c30b2153d4e7325cd8df68dec5833f2501d0b4b1b4ffae5d"
+    },
+    "2510DRK44C": {
+      "name": "REDMI K90",
+      "codenames": [
+        "annibale"
+      ],
+      "file": "2510DRK44C.json",
+      "sha256": "124241d22404ee9ebec38eb631e7d5eb2af64cc6c7bbb9910591635b87e1491b"
+    },
+    "2510ERA8BC": {
+      "name": "REDMI Note 15 Pro+",
+      "codenames": [
+        "flourite"
+      ],
+      "file": "2510ERA8BC.json",
+      "sha256": "58b6b201d8d828fdd03916b6ccb07772fad1b2390e51a2f2642a39b2ed4b1a5e"
+    },
+    "25113PN0EC": {
+      "name": "Xiaomi 17",
+      "codenames": [
+        "pudding"
+      ],
+      "file": "25113PN0EC.json",
+      "sha256": "18b333155adef0db765fbec36cdd545fb597ce5ef7f2ca5b5fc616199d2566a4"
+    },
+    "2511FRT34C": {
+      "name": "REDMI Turbo 5",
+      "codenames": [
+        "klee"
+      ],
+      "file": "2511FRT34C.json",
+      "sha256": "6a63319ede55a1aa9d0e1ea80214a9829064ac8fcd0e91a6c86536d10ff4e42f"
+    },
+    "25128PNA1C": {
+      "name": "Xiaomi 17 Ultra by Leica",
+      "codenames": [
+        "nezha"
+      ],
+      "file": "25128PNA1C.json",
+      "sha256": "88258eb04d7734c7427ba7dcdb609dd01a3baf64a9c266fe9c086f4798e83410"
+    },
+    "2512BPNDAC": {
+      "name": "Xiaomi 17 Ultra",
+      "codenames": [
+        "nezha"
+      ],
+      "file": "2512BPNDAC.json",
+      "sha256": "a540f70c6a9b4b697e5a4eb6387c65264f0111a2a9b9b24c15dc3e59ab268b33"
+    },
+    "26020RN1AC": {
+      "name": "REDMI R70 5G",
+      "codenames": [
+        "somalia"
+      ],
+      "file": "26020RN1AC.json",
+      "sha256": "e32363354c72dd6e3b30ea3d09e44fdb1130e357e440e53325e64f107b7f7d88"
+    },
+    "26021RN18C": {
+      "name": "REDMI Note 17",
+      "codenames": [
+        "mist"
+      ],
+      "file": "26021RN18C.json",
+      "sha256": "6999f22951baef4d01b190dcc8785d18cb6508951217da60e2e959c2cb6b0c3e"
+    },
+    "2602BRNA4C": {
+      "name": "REDMI 17 5G",
+      "codenames": [
+        "somalia"
+      ],
+      "file": "2602BRNA4C.json",
+      "sha256": "77af149fbbe2f0b6e1bd8e9596e6712b2bc1f78300773b3bad23fd6fcb0d8adc"
+    },
+    "2602BRT18C": {
+      "name": "REDMI Turbo 5 Max",
+      "codenames": [
+        "dash"
+      ],
+      "file": "2602BRT18C.json",
+      "sha256": "4546291c4d7ca14fcecc9079ce187714a75461989b957ca0a86ff22882b65e80"
+    },
+    "2603ARP14C": {
+      "name": "REDMI Pad 2 SE",
+      "codenames": [
+        "guitar"
+      ],
+      "file": "2603ARP14C.json",
+      "sha256": "171f35f3401bc767a526eec8c3994fdb98d1f0b3eb15788b3142c211b2a017db"
+    },
+    "26048RP6AC": {
+      "name": "REDMI K Pad 2",
+      "codenames": [
+        "yili"
+      ],
+      "file": "26048RP6AC.json",
+      "sha256": "c8420cdbbb30bd812d9974673f8fea0ff6dfd2cd071284e3f9ae5b9b8550e74b"
+    },
+    "2604ERP4DC": {
+      "name": "REDMI Pad 2 SE 4G",
+      "codenames": [
+        "erhu"
+      ],
+      "file": "2604ERP4DC.json",
+      "sha256": "c4981cff0ffbfe254f53575bd46b376d14d00b3e4b4e2586cd3f0aa17608dfc7"
+    },
+    "2604FRK1EC": {
+      "name": "REDMI K90 Max",
+      "codenames": [
+        "prague"
+      ],
+      "file": "2604FRK1EC.json",
+      "sha256": "c1872805c6ae569c75b43b6dce1a812b56dc03a561a37e7e5d3251d7f0e0f9d5"
+    },
+    "2605EPN8EC": {
+      "name": "Xiaomi 17 Max",
+      "codenames": [
+        "byron"
+      ],
+      "file": "2605EPN8EC.json",
+      "sha256": "deb7608548e2508c8ca4cbe39820b3e22797eb0a4b20336c927ee3363d17ad24"
+    },
+    "26062RN92C": {
+      "name": "REDMI M100",
+      "codenames": [
+        "steppe",
+        "leeds"
+      ],
+      "file": "26062RN92C.json",
+      "sha256": "2099eb71cae8cd11945d3c3c37722f07421eeec60ef32db6d42d127423d79542"
+    },
+    "2607DRA18C": {
+      "name": "REDMI Note 17 Pro 5G",
+      "codenames": [
+        "iolite",
+        "moscow"
+      ],
+      "file": "2607DRA18C.json",
+      "sha256": "63c8c78d3e0fb7c17ee2751d9d16fd708b6e197bc25177aea8535387cbddc542"
+    },
+    "2608BPX34C": {
+      "name": "Xiaomi 18 Fold",
+      "codenames": [
+        "lhasa"
+      ],
+      "file": "2608BPX34C.json",
+      "sha256": "5687cf5c5255e4ee4dcfd962ea05cb469f719ae0c4ad1625d8dfaaca1289fd5d"
+    },
+    "2612CRPFFC": {
+      "name": "Xiaomi Pad 9 Pro",
+      "codenames": [
+        "shuntian"
+      ],
+      "file": "2612CRPFFC.json",
+      "sha256": "ddcacf4bbf87c561315228911443de9830a1ffa2bf8bf420ee397008b01d96be"
+    },
+    "M025EC": {
+      "name": "Xiaomi 17T Pro",
+      "codenames": [
+        "warhol"
+      ],
+      "file": "M025EC.json",
+      "sha256": "676a24974f8cc737d1abfc1e51328ac14c67427598c10caf90b8741894159641"
+    },
+    "M098FE": {
+      "name": "REDMI K100 Pro Max",
+      "codenames": [
+        "songyuan"
+      ],
+      "file": "M098FE.json",
+      "sha256": "67cdf7a243d954a243cb10a93d7fab04a4d8e37d9fc5851b15071866b03f1e28"
+    },
+    "M154FF": {
+      "name": "Xiaomi 18 Pro Max",
+      "codenames": [
+        "madrid"
+      ],
+      "file": "M154FF.json",
+      "sha256": "e2882b8d3416b36c12d13ad9a30cd5b109479a030bcb802b9197a1e81923116e"
+    },
+    "M2011K2C": {
+      "name": "Xiaomi 11",
+      "codenames": [
+        "venus"
+      ],
+      "file": "M2011K2C.json",
+      "sha256": "aff777ce4816115a60f09e3b8a5b5368376bcd0ae6ee8dbff8f6089831bf2b93"
+    },
+    "M2102K1AC": {
+      "name": "Xiaomi 11 Pro",
+      "codenames": [
+        "star",
+        "mars"
+      ],
+      "file": "M2102K1AC.json",
+      "sha256": "db78bb066711fcdfe9529b99697074b03d8833a3a4bb7a9986dee99824efc22f"
+    },
+    "M2102K1C": {
+      "name": "Xiaomi 11 Ultra",
+      "codenames": [
+        "star"
+      ],
+      "file": "M2102K1C.json",
+      "sha256": "83c89020ce21cde599bd68eda2756099611e979f427a0eea28b92d99d7df1370"
+    },
+    "M332BF": {
+      "name": "REDMI K90 Ultra",
+      "codenames": [
+        "warsaw"
+      ],
+      "file": "M332BF.json",
+      "sha256": "fc311aeb82f2bcbcf80b5dbaacf26151262863f51abc421c52d58a4924bcdbed"
+    },
+    "M367FC": {
+      "name": "Xiaomi Pad 9 Pro Max",
+      "codenames": [
+        "yingtian"
+      ],
+      "file": "M367FC.json",
+      "sha256": "17550fc09ea7d2a86463eb33577a102ebfca084491f1081a25247bb52e127f51"
+    },
+    "M511CD": {
+      "name": "REDMI K100 Pro",
+      "codenames": [
+        "athens"
+      ],
+      "file": "M511CD.json",
+      "sha256": "316d68a6fb7362bd1161a2aea95f730c9f2cd4a434fe9b173564fb6fadae714e"
+    },
+    "M531DA": {
+      "name": "Xiaomi 17T",
+      "codenames": [
+        "chagall"
+      ],
+      "file": "M531DA.json",
+      "sha256": "f8e07d869c08f133e59927eb89dc1b47950c342293348ec1d6da28640ffecd60"
+    },
+    "M610BB": {
+      "name": "Xiaomi 18 Pro",
+      "codenames": [
+        "hongkong"
+      ],
+      "file": "M610BB.json",
+      "sha256": "fd666c8de2da47c28b6396879c05048b53b53b37d07e2e82620caabb4f45944e"
+    },
+    "M656BA": {
+      "name": "Xiaomi Pad 9",
+      "codenames": [
+        "yupei",
+        "yupei_d",
+        "donghai"
+      ],
+      "file": "M656BA.json",
+      "sha256": "c99f1277a965d72ee248f778f0092903d24db2aa2aa72aead4028a92ef90221b"
+    },
+    "M786BC": {
+      "name": "REDMI K100",
+      "codenames": [
+        "warsaw",
+        "warsaw_y",
+        "yanan"
+      ],
+      "file": "M786BC.json",
+      "sha256": "921c01fd0b1643cca63af2e83f766fcba61aa1acaacfa69421a7a20c7a23db79"
+    }
+  },
+  "coverage": {
+    "models": 128,
+    "firmware_codenames": 113,
+    "models_without_missing_fields": 53,
+    "missing_by_field": {
+      "Display · Size": 4,
+      "Display · Type": 9,
+      "Display · Resolution": 6,
+      "refresh_rate": 6,
+      "ram": 24,
+      "storage": 13,
+      "camera_main": 14,
+      "camera_ultrawide": 15,
+      "camera_tele": 16,
+      "camera_front": 16,
+      "Comms · WLAN": 14,
+      "Comms · Bluetooth": 13,
+      "Comms · USB": 6,
+      "Battery · Type": 5,
+      "battery_chemistry": 53
+    }
+  }
+}

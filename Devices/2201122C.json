@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "model": "2201122C",
+  "name": "Xiaomi 12 Pro",
+  "aliases": [
+    "Xiaomi 12 Pro"
+  ],
+  "cn_name": "Xiaomi 12 Pro",
+  "codenames": [
+    "zeus"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2,
+    3
+  ],
+  "specs": {
+    "Display · Type": "LTPO AMOLED",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "1440 x 3200",
+    "ram": "LPDDR5",
+    "storage": "UFS 3.1",
+    "Comms · WLAN": "Wi-Fi 6",
+    "Comms · Bluetooth": "5.2",
+    "Comms · USB": "USB Type-C",
+    "camera_ultrawide": "50 MP",
+    "Display · Size": "6.73 inches",
+    "Battery · Type": "Li-Po 4600 mAh",
+    "camera_main": "50 MP",
+    "camera_tele": "50 MP",
+    "camera_front": "32 MP"
+  },
+  "field_sources": {
+    "Display · Type": "CN-catalog",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "storage": "CN-catalog",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "camera_ultrawide": "CN-catalog",
+    "Display · Size": "CN-catalog",
+    "Battery · Type": "CN-catalog+hardware-reference",
+    "camera_main": "hardware-reference",
+    "camera_tele": "hardware-reference",
+    "camera_front": "hardware-reference"
+  },
+  "missing_fields": [],
+  "conflicts": [],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/zeus.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.1.0.VLBCNXM",
+          "release": "2025-01-24"
+        },
+        {
+          "major": 3,
+          "version": "OS3.0.2.0.VLBCNXM",
+          "release": "2026-01-14"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "太平洋电脑网",
+        "id": "1116618",
+        "name": "小米12 Pro"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "1371912",
+        "name": "小米12 Pro（8GB/256GB/5G版）"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/12_Pro/details.json",
+      "sha256": "d87b802a4dcd9c3a5d773d453af165e9f332e47a700badad7574769ebd6a0997",
+      "match": "exact-model-and-name"
+    }
+  }
+}

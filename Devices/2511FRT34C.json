@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "model": "2511FRT34C",
+  "name": "REDMI Turbo 5",
+  "aliases": [
+    "REDMI Turbo 5"
+  ],
+  "cn_name": "REDMI Turbo 5",
+  "codenames": [
+    "klee"
+  ],
+  "market": "CN",
+  "hyperos": [
+    3,
+    4
+  ],
+  "specs": {
+    "Display · Size": "6.59 inches",
+    "refresh_rate": "120 Hz",
+    "ram": "LPDDR5X",
+    "Battery · Type": "7560 mAh",
+    "Comms · WLAN": "Wi-Fi 6",
+    "Comms · USB": "USB Type-C",
+    "storage": "UFS 4.1",
+    "Comms · Bluetooth": "5.4",
+    "Display · Type": "AMOLED",
+    "camera_main": "50 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP"
+  },
+  "field_sources": {
+    "Display · Size": "CN-catalog",
+    "refresh_rate": "CN-catalog",
+    "ram": "CN-catalog",
+    "Battery · Type": "CN-catalog",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "storage": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Display · Type": "hardware-reference",
+    "camera_main": "hardware-reference",
+    "camera_ultrawide": "hardware-reference",
+    "camera_tele": "hardware-reference",
+    "camera_front": "hardware-reference"
+  },
+  "missing_fields": [
+    "Display · Resolution",
+    "battery_chemistry"
+  ],
+  "conflicts": [
+    {
+      "field": "Display · Resolution",
+      "values": [
+        "1260 x 2750",
+        "1268 x 2756"
+      ]
+    }
+  ],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/klee.json"
+      ],
+      "evidence": [
+        {
+          "major": 3,
+          "version": "OS3.0.4.0.WPJCNXM",
+          "release": "2026-01-29"
+        },
+        {
+          "major": 4,
+          "version": "OS4.0.3.0.XPJCNXM",
+          "release": "2026-10-26"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "CNMO",
+        "id": "1627924",
+        "name": "红米 Turbo 5(16GB+256GB)"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "2155768",
+        "name": "Redmi Turbo 5（12GB/256GB）"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "2155778",
+        "name": "Redmi Turbo 5（12GB/512GB）"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/Redmi_Turbo_5/details.json",
+      "sha256": "a2f37ca62cbadf8b904d236ed28fcb90bd56101ef5eb6d07f3252be0916c378e",
+      "match": "exact-model-and-name"
+    }
+  }
+}

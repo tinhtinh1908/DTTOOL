@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "model": "26048RP6AC",
+  "name": "REDMI K Pad 2",
+  "aliases": [
+    "REDMI K Pad 2"
+  ],
+  "cn_name": "REDMI K Pad 2",
+  "codenames": [
+    "yili"
+  ],
+  "market": "CN",
+  "hyperos": [
+    3,
+    4
+  ],
+  "specs": {
+    "Display · Size": "8.8 inches",
+    "Display · Type": "IPS LCD",
+    "Display · Resolution": "1880 x 3008",
+    "refresh_rate": "165 Hz",
+    "storage": "UFS 4.1",
+    "camera_main": "13 MP",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "8 MP",
+    "Comms · WLAN": "Wi-Fi 7",
+    "Comms · Bluetooth": "5.4",
+    "Comms · USB": "USB Type-C 3.2",
+    "Battery · Type": "9100 mAh"
+  },
+  "field_sources": {
+    "Display · Size": "hardware-reference",
+    "Display · Type": "hardware-reference",
+    "Display · Resolution": "hardware-reference",
+    "refresh_rate": "hardware-reference",
+    "storage": "hardware-reference",
+    "camera_main": "hardware-reference",
+    "camera_ultrawide": "hardware-reference",
+    "camera_tele": "hardware-reference",
+    "camera_front": "hardware-reference",
+    "Comms · WLAN": "hardware-reference",
+    "Comms · Bluetooth": "hardware-reference",
+    "Comms · USB": "hardware-reference",
+    "Battery · Type": "hardware-reference"
+  },
+  "missing_fields": [
+    "ram",
+    "battery_chemistry"
+  ],
+  "conflicts": [],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/yili.json"
+      ],
+      "evidence": [
+        {
+          "major": 3,
+          "version": "OS3.0.301.0.WAKCNXM",
+          "release": "2026-04-21"
+        },
+        {
+          "major": 4,
+          "version": "OS4.0.3.0.XAKCNXM",
+          "release": "2026-10-26"
+        }
+      ]
+    },
+    "cn_specs": [],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/Redmi_K_Pad_2/details.json",
+      "sha256": "2f23f2dee1eaecc0f9cf35318e0f5920a74e1d9d49c4c50e618b0ae7904bbb00",
+      "match": "China-only-family-name"
+    }
+  }
+}

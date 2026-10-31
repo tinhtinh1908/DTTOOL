@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "model": "2211133C",
+  "name": "Xiaomi 13",
+  "aliases": [
+    "Xiaomi 13"
+  ],
+  "cn_name": "Xiaomi 13",
+  "codenames": [
+    "fuxi"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2,
+    3
+  ],
+  "specs": {
+    "Display · Type": "OLED",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "1080 x 2400",
+    "ram": "LPDDR5X",
+    "storage": "UFS 4.0",
+    "Comms · WLAN": "Wi-Fi 6",
+    "Comms · Bluetooth": "5.3",
+    "Comms · USB": "USB Type-C",
+    "camera_tele": "10 MP",
+    "camera_ultrawide": "12 MP",
+    "Display · Size": "6.36 inches",
+    "Battery · Type": "Li-Po 4500 mAh",
+    "camera_main": "50 MP",
+    "camera_front": "32 MP"
+  },
+  "field_sources": {
+    "Display · Type": "CN-catalog",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "storage": "CN-catalog",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "camera_tele": "CN-catalog",
+    "camera_ultrawide": "CN-catalog",
+    "Display · Size": "CN-catalog",
+    "Battery · Type": "CN-catalog+hardware-reference",
+    "camera_main": "hardware-reference",
+    "camera_front": "hardware-reference"
+  },
+  "missing_fields": [],
+  "conflicts": [],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/fuxi.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.3.0.VMCCNXM",
+          "release": "2024-12-22"
+        },
+        {
+          "major": 3,
+          "version": "OS3.0.2.0.WMCCNXM",
+          "release": "2025-12-10"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "太平洋电脑网",
+        "id": "1687507",
+        "name": "Xiaomi 13"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "1427190",
+        "name": "小米13（8GB/128GB）"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/13/details.json",
+      "sha256": "729b1d4376705444f51c4fdca732577c436e060009e4dad72cd9252ac62c6940",
+      "match": "exact-model-and-name"
+    }
+  }
+}

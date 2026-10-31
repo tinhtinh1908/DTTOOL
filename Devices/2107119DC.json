@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "model": "2107119DC",
+  "name": "Xiaomi 11 Lite 5G NE",
+  "aliases": [
+    "Xiaomi 11 Lite 5G NE",
+    "Xiaomi 11 Lite NE 5G",
+    "Mi 11 LE"
+  ],
+  "cn_name": "Xiaomi 11 青春活力版",
+  "codenames": [
+    "lisa"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2
+  ],
+  "specs": {
+    "refresh_rate": "90 Hz",
+    "Display · Resolution": "1080 x 2400",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
+    "Comms · WLAN": "Wi-Fi 6",
+    "Comms · Bluetooth": "5.2",
+    "Comms · USB": "USB Type-C",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "5 MP",
+    "Display · Size": "6.55 inches",
+    "Display · Type": "AMOLED",
+    "camera_main": "64 MP",
+    "camera_front": "20 MP",
+    "Battery · Type": "Li-Po 4250 mAh"
+  },
+  "field_sources": {
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "storage": "CN-catalog",
+    "Comms · WLAN": "CN-catalog",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "camera_ultrawide": "CN-catalog",
+    "camera_tele": "CN-catalog",
+    "Display · Size": "hardware-reference",
+    "Display · Type": "hardware-reference",
+    "camera_main": "hardware-reference",
+    "camera_front": "hardware-reference",
+    "Battery · Type": "hardware-reference"
+  },
+  "missing_fields": [],
+  "conflicts": [],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/lisa.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.1.0.UKOCNXM",
+          "release": "2025-03-10"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "太平洋电脑网",
+        "id": "1459087",
+        "name": "小米11青春活力版"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/11_Lite_5G_NE/details.json",
+      "sha256": "eae4499743b67f1065ce5cef77ee87abc28cf0319b89d14da7cfdb13e7fedc81",
+      "match": "exact-model-and-name"
+    }
+  }
+}

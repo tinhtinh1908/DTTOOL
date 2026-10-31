@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "model": "22081212C",
+  "name": "Redmi K50 Ultra",
+  "aliases": [
+    "Redmi K50 Ultra"
+  ],
+  "cn_name": "Redmi K50 至尊版",
+  "codenames": [
+    "diting"
+  ],
+  "market": "CN",
+  "hyperos": [
+    2,
+    3
+  ],
+  "specs": {
+    "Display · Size": "6.67 inches",
+    "refresh_rate": "120 Hz",
+    "Display · Resolution": "1220 x 2712",
+    "ram": "LPDDR5",
+    "Battery · Type": "Li-Po 5000 mAh",
+    "Comms · Bluetooth": "5.2",
+    "Comms · USB": "USB Type-C",
+    "Display · Type": "OLED",
+    "storage": "UFS 3.1",
+    "camera_main": "108 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP"
+  },
+  "field_sources": {
+    "Display · Size": "CN-catalog",
+    "refresh_rate": "CN-catalog",
+    "Display · Resolution": "CN-catalog",
+    "ram": "CN-catalog",
+    "Battery · Type": "CN-catalog+hardware-reference",
+    "Comms · Bluetooth": "CN-catalog",
+    "Comms · USB": "CN-catalog",
+    "Display · Type": "CN-catalog",
+    "storage": "CN-catalog",
+    "camera_main": "hardware-reference",
+    "camera_ultrawide": "hardware-reference",
+    "camera_tele": "hardware-reference",
+    "camera_front": "hardware-reference"
+  },
+  "missing_fields": [
+    "Comms · WLAN"
+  ],
+  "conflicts": [
+    {
+      "field": "Comms · WLAN",
+      "values": [
+        "Wi-Fi 6E",
+        "Wi-Fi 6"
+      ]
+    }
+  ],
+  "sources": {
+    "identity": {
+      "repository": "KHwang9883/MobileModels",
+      "commit": "2618dbf1fb9a79b451d7423b08592653e660e3f1"
+    },
+    "roms": {
+      "repository": "HegeKen/HyperData",
+      "commit": "56fea64c4a7ccd97fb6d6daf7ac51c671bfc7728",
+      "site": "https://hyperos.fans/zh/devices/",
+      "paths": [
+        "devices/diting.json"
+      ],
+      "evidence": [
+        {
+          "major": 2,
+          "version": "OS2.0.5.0.VLFCNXM",
+          "release": "2025-03-28"
+        },
+        {
+          "major": 3,
+          "version": "OS3.0.1.0.VLFCNXM",
+          "release": "2026-01-20"
+        }
+      ]
+    },
+    "cn_specs": [
+      {
+        "provider": "CNMO",
+        "id": "1626076",
+        "name": "红米K50至尊版(8+256GB)"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1626077",
+        "name": "红米K50至尊版(12+256GB)"
+      },
+      {
+        "provider": "CNMO",
+        "id": "1626078",
+        "name": "红米K50至尊版(12+512GB)"
+      },
+      {
+        "provider": "中关村在线",
+        "id": "1420747",
+        "name": "Redmi K50 至尊版（8GB/128GB）"
+      }
+    ],
+    "hardware": {
+      "repository": "bytecharts/device_specs_gsmarena",
+      "commit": "8be80e6dca116988484fb968add3d7a50e5f844b",
+      "path": "xiaomi-phones-80/Redmi_K50_Ultra/details.json",
+      "sha256": "79259ac1b02e87a27b3ecc8efb031e5c5bbadab0a6be6f1577f2ff3b17eed61d",
+      "match": "exact-model-and-name"
+    }
+  }
+}
