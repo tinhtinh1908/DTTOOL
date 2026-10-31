@@ -1,32 +1,14 @@
 # DT TOOL — danh sách lệnh
 
-OS3 và OS4 dùng các thư mục độc lập. Mỗi thư mục có ba file JSON gọn:
+OS3 và OS4 có hai file riêng:
 
 | File | Nội dung |
 |---|---|
-| `adb.json` | Tên hiển thị → lệnh Android |
-| `go.json` | Tên hiển thị → package cần gỡ |
-| `tat.json` | Tên hiển thị → package cần tắt |
+| `adb.json` | Tên hiển thị → lệnh Android, không thêm `adb shell` |
+| `apps.json` | Tên hiển thị → package, tool tự chọn gỡ hoặc tắt |
 
-Các file hiện để `{}`, chưa có lệnh nào.
+`apps.json` đã gộp 89 package duy nhất từ danh sách người dùng. Không còn chia `go.json` và `tat.json`.
 
-## Ví dụ adb.json
+Tool bỏ qua package không có hoặc đã tắt, giữ bàn phím đang dùng và thành phần lõi. Với package còn hoạt động, tool gỡ cho user 0 và giữ dữ liệu (`-k`). Nếu Android báo rõ lỗi chặn gỡ, tool thử `disable-user`. Cả hai đường đều đọc lại trạng thái; lỗi ADB hoặc kết quả chưa xác nhận không được coi là thành công và không tự chuyển thao tác.
 
-```json
-{
-  "Đọc mã máy": "getprop ro.product.model",
-  "Cho phép sửa cài đặt": "appops set com.android.shell WRITE_SETTINGS allow"
-}
-```
-
-Không thêm tiền tố `adb shell`. Lệnh cần JAR/APK chỉ chạy được khi tài nguyên đó đã có sẵn; danh sách này không tự đẩy file.
-
-## Ví dụ go.json hoặc tat.json
-
-```json
-{
-  "Tên ứng dụng A": "com.example.appa",
-  "Tên ứng dụng B": "com.example.appb"
-}
-```
-
+Danh sách là lựa chọn của người dùng, không phải chứng nhận mọi package đều vô hại khi gỡ. Không tự thực thi khi tải/cập nhật danh sách; Auto setup chỉ chạy khi người dùng khởi động tác vụ.
