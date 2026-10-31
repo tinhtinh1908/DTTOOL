@@ -2,9 +2,8 @@
 
 Máy Xiaomi/Redmi nội địa China có ROM HyperOS 2–4, đối chiếu đến 2026-10-31. **122 file tên máy, 128 mã model.**
 
-Tên file viết thường, cách nhau bằng `_`: `redmi_pad_2.json`, `xiaomi_15_pro.json`. Máy trùng tên dùng chung file.
 
-Mỗi file giữ:
+Cấu trúc:
 
 - `name`: tên máy.
 - `models`: mã model để nhận diện chính xác.
