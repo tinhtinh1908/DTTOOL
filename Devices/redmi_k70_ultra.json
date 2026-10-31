@@ -9,8 +9,8 @@
   "specs": {
     "display_size": "6.67 inches",
     "display_type": "AMOLED",
-    "resolution": "",
-    "refresh_rate": "",
+    "resolution": "1220 x 2712",
+    "refresh_rate": "144 Hz",
     "ram": "LPDDR5X",
     "storage": "UFS 4.0",
     "camera_main": "50 MP",
@@ -22,9 +22,5 @@
     "usb": "USB Type-C",
     "battery": "Li-Po 5500 mAh",
     "battery_chemistry": "Li-Po"
-  },
-  "conflicts": [
-    "refresh_rate",
-    "resolution"
-  ]
+  }
 }

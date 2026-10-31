@@ -8,7 +8,7 @@
   ],
   "specs": {
     "display_size": "6.67 inches",
-    "display_type": "",
+    "display_type": "AMOLED",
     "resolution": "1220 x 2712",
     "refresh_rate": "120 Hz",
     "ram": "LPDDR5X",
@@ -22,8 +22,5 @@
     "usb": "USB Type-C",
     "battery": "Li-Po 5500 mAh",
     "battery_chemistry": "Li-Po"
-  },
-  "conflicts": [
-    "display_type"
-  ]
+  }
 }

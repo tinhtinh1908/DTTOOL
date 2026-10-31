@@ -11,7 +11,7 @@
     "display_type": "IPS LCD",
     "resolution": "1600 x 2560",
     "refresh_rate": "120 Hz",
-    "ram": "",
+    "ram": "LPDDR4X",
     "storage": "UFS 2.2",
     "camera_main": "8 MP",
     "camera_ultrawide": "None",
@@ -21,6 +21,6 @@
     "bluetooth": "5.2",
     "usb": "USB Type-C 2.0",
     "battery": "10000 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Li-Po"
   }
 }

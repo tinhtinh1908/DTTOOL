@@ -18,16 +18,12 @@
     "camera_ultrawide": "8 MP",
     "camera_tele": "None",
     "camera_front": "16 MP",
-    "wifi": "",
-    "bluetooth": "",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.2",
     "usb": "USB Type-C",
     "battery": "Li-Po 5100 mAh",
     "battery_chemistry": "Li-Po"
   },
-  "conflicts": [
-    "bluetooth",
-    "wifi"
-  ],
   "variants": {
     "2312CRAD3C": {
       "specs": {

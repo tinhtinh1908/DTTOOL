@@ -10,7 +10,7 @@
     "display_size": "11 inches",
     "display_type": "LCD",
     "resolution": "1200 x 1920",
-    "refresh_rate": "",
+    "refresh_rate": "90 Hz",
     "ram": "LPDDR4X",
     "storage": "eMMC 5.1",
     "camera_main": "8 MP",
@@ -21,6 +21,6 @@
     "bluetooth": "4.2",
     "usb": "USB Type-C",
     "battery": "8000 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Li-Po"
   }
 }

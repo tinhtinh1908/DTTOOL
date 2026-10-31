@@ -19,8 +19,8 @@
     "camera_front": "32 MP",
     "wifi": "Wi-Fi 7",
     "bluetooth": "6.0",
-    "usb": "USB 3.2 Gen 1",
+    "usb": "USB 3.2 Gen 2",
     "battery": "12000 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Li-Po"
   }
 }

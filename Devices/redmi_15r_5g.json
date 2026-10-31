@@ -8,19 +8,19 @@
   ],
   "specs": {
     "display_size": "6.9 inches",
-    "display_type": "",
-    "resolution": "",
+    "display_type": "IPS LCD",
+    "resolution": "720 x 1600",
     "refresh_rate": "120 Hz",
-    "ram": "",
-    "storage": "",
+    "ram": "LPDDR4X",
+    "storage": "UFS 2.2",
     "camera_main": "13 MP",
-    "camera_ultrawide": "",
-    "camera_tele": "",
-    "camera_front": "",
-    "wifi": "",
-    "bluetooth": "",
-    "usb": "",
+    "camera_ultrawide": "None",
+    "camera_tele": "None",
+    "camera_front": "5 MP",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C",
     "battery": "6000 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Li-Po"
   }
 }

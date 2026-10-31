@@ -10,19 +10,19 @@
   ],
   "specs": {
     "display_size": "6.83 inches",
-    "display_type": "",
-    "resolution": "",
+    "display_type": "AMOLED",
+    "resolution": "1280 x 2772",
     "refresh_rate": "165 Hz",
     "ram": "LPDDR5X Ultra",
     "storage": "UFS 4.1",
     "camera_main": "50 MP",
-    "camera_ultrawide": "",
-    "camera_tele": "",
-    "camera_front": "",
-    "wifi": "",
-    "bluetooth": "",
-    "usb": "",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "usb": "USB Type-C 2.0",
     "battery": "10000 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Si/C Li-Ion"
   }
 }

@@ -21,6 +21,6 @@
     "bluetooth": "5.4",
     "usb": "USB Type-C",
     "battery": "5400 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Si/C Li-Ion"
   }
 }

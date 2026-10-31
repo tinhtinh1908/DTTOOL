@@ -12,15 +12,15 @@
     "resolution": "1080 x 2400",
     "refresh_rate": "120 Hz",
     "ram": "LPDDR5",
-    "storage": "",
-    "camera_main": "",
-    "camera_ultrawide": "",
-    "camera_tele": "",
-    "camera_front": "",
+    "storage": "UFS 3.1",
+    "camera_main": "64 MP",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
+    "camera_front": "20 MP",
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
     "usb": "USB Type-C",
     "battery": "4700 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Li-Po"
   }
 }

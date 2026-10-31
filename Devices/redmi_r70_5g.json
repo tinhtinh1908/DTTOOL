@@ -20,10 +20,7 @@
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
-    "battery": "",
-    "battery_chemistry": ""
-  },
-  "conflicts": [
-    "battery"
-  ]
+    "battery": "6000 mAh",
+    "battery_chemistry": "Li-Po"
+  }
 }

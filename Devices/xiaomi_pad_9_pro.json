@@ -12,18 +12,15 @@
     "resolution": "2136 x 3200",
     "refresh_rate": "144 Hz",
     "ram": "LPDDR5X",
-    "storage": "",
-    "camera_main": "32 MP",
+    "storage": "UFS 3.1",
+    "camera_main": "50 MP",
     "camera_ultrawide": "None",
     "camera_tele": "None",
-    "camera_front": "50 MP",
+    "camera_front": "32 MP",
     "wifi": "Wi-Fi 7",
     "bluetooth": "6.0",
     "usb": "USB 3.2 Gen 1",
     "battery": "11000 mAh",
-    "battery_chemistry": ""
-  },
-  "conflicts": [
-    "storage"
-  ]
+    "battery_chemistry": "Li-Po"
+  }
 }

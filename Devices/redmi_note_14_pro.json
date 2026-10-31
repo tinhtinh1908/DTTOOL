@@ -14,13 +14,13 @@
     "ram": "LPDDR4X",
     "storage": "UFS 2.2",
     "camera_main": "50 MP",
-    "camera_ultrawide": "",
-    "camera_tele": "",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "None",
     "camera_front": "20 MP",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
     "battery": "5500 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Si/C Li-Ion"
   }
 }

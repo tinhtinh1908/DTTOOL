@@ -23,6 +23,6 @@
     "bluetooth": "6.0",
     "usb": "USB 3.2 Gen 1",
     "battery": "9720 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Li-Po"
   }
 }

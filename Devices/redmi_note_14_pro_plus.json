@@ -12,18 +12,15 @@
     "resolution": "1220 x 2712",
     "refresh_rate": "120 Hz",
     "ram": "LPDDR4X",
-    "storage": "",
+    "storage": "UFS 2.2",
     "camera_main": "50 MP",
-    "camera_ultrawide": "",
-    "camera_tele": "",
+    "camera_ultrawide": "8 MP",
+    "camera_tele": "50 MP",
     "camera_front": "20 MP",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
     "usb": "USB Type-C",
     "battery": "6200 mAh",
-    "battery_chemistry": ""
-  },
-  "conflicts": [
-    "storage"
-  ]
+    "battery_chemistry": "Si/C Li-Ion"
+  }
 }

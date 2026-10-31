@@ -22,6 +22,6 @@
     "bluetooth": "5.4",
     "usb": "USB Type-C 3.2 Gen 2",
     "battery": "5300 mAh",
-    "battery_chemistry": ""
+    "battery_chemistry": "Si/C Li-Ion"
   }
 }

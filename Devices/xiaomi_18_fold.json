@@ -8,10 +8,10 @@
   ],
   "specs": {
     "display_size": "7.58 inches",
-    "display_type": "",
+    "display_type": "LTPO AMOLED",
     "resolution": "1672 x 2364",
     "refresh_rate": "120 Hz",
-    "ram": "",
+    "ram": "LPDDR5X",
     "storage": "UFS 4.1",
     "camera_main": "200 MP",
     "camera_ultrawide": "50 MP",
@@ -21,9 +21,6 @@
     "bluetooth": "6.0",
     "usb": "USB Type-C",
     "battery": "6000 mAh",
-    "battery_chemistry": ""
-  },
-  "conflicts": [
-    "ram"
-  ]
+    "battery_chemistry": "Si/C Li-Ion"
+  }
 }
