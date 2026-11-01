@@ -79,5 +79,6 @@
   "Mini game": "com.xiaomi.minigame",
   "Quảng cáo hệ thống": "com.miui.systemAdSolution",
   "SDK Game Center": "com.xiaomi.gamecenter.sdk.service",
-  "UnionPay TSM": "com.unionpay.tsmservice.mi"
+  "UnionPay TSM": "com.unionpay.tsmservice.mi",
+  "Kết nối xe Xiaomi": "com.xiaomi.mis"
 }
