@@ -1,22 +1,22 @@
 # Devices
 
-Máy Xiaomi/Redmi nội địa China có ROM HyperOS 2–4, đối chiếu đến 2026-10-31. **122 file tên máy, 128 mã model.**
+Máy Xiaomi/Redmi nội địa China có ROM HyperOS 2–4, đối chiếu đến 2026-10-31. **128 file mã model, mỗi mã một file.**
 
 
 Cấu trúc:
 
 - `name`: tên máy.
-- `models`: mã model để nhận diện chính xác.
+- `models`: một mã model duy nhất, phải trùng tên file, ví dụ `2410DPN6CC.json`.
 - `codenames`: codename để kiểm tra đúng thiết bị.
 - `specs`: thông số dùng trong tab Thông tin.
-- `variants`: chỉ xuất hiện khi các mã model cùng tên có thông số khác nhau; phần này bổ sung vào thông số chung của đúng mã.
+- Các biến thể có mã model khác nhau được tách thành file riêng, giữ đúng thông số và codename của từng mã.
 - `conflicts`: chỉ xuất hiện khi có trường chưa xác định do nguồn mâu thuẫn.
 
 Các khóa thông số: `display_size`, `display_type`, `resolution`, `refresh_rate`, `ram`, `storage`, `camera_main`, `camera_ultrawide`, `camera_tele`, `camera_front`, `wifi`, `bluetooth`, `usb`, `battery`, `battery_chemistry`.
 
 Giá trị `""` là chưa xác minh, để trống cho người dùng tự điền; không xóa khóa. `None` là nguồn xác nhận không có camera đó. `battery_chemistry` dành cho loại pin, ví dụ `Li-Po` hoặc `Si/C Li-Ion`. RAM/bộ nhớ ở đây là loại LPDDR/UFS/eMMC; dung lượng thực tế vẫn đọc từ máy đang cắm. Không lấy thông số Global để điền cho China. Máy gập mô tả màn hình chính khi xác minh được.
 
-`index.json` chỉ liệt kê file và ngày cập nhật. Không cần tự tính checksum khi sửa. Tool cập nhật từ commit Git đã ghim hoặc nhập thư mục bằng `app/scripts/update-device-catalog.cjs --from <Devices>`; dùng snapshot offline khi chạy.
+`index.json` version 3 chỉ phục vụ liệt kê, kiểm tra và xuất snapshot khi bảo trì. Khi chạy, tool lấy trực tiếp `https://raw.githubusercontent.com/tinhtinh1908/DTTOOL/main/Devices/<MODEL>.json` bằng một request, không tải index hoặc toàn bộ danh sách về máy. Mã model dùng chữ hoa; tên máy vẫn nằm trong `name`. Không cần tự tính checksum khi sửa.
 
 ## Nguồn
 
